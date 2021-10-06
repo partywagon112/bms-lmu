@@ -1,0 +1,193 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 616435F7
+P 5650 4200
+F 0 "Q?" H 5841 4246 50  0000 L CNN
+F 1 "BC817" H 5841 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5850 4125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 5650 4200 50  0001 L CNN
+	1    5650 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61644D16
+P 6200 4200
+F 0 "R?" V 5993 4200 50  0000 C CNN
+F 1 "R" V 6084 4200 50  0000 C CNN
+F 2 "" V 6130 4200 50  0001 C CNN
+F 3 "~" H 6200 4200 50  0001 C CNN
+	1    6200 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6164548A
+P 6450 4400
+F 0 "R?" H 6380 4354 50  0000 R CNN
+F 1 "R" H 6380 4445 50  0000 R CNN
+F 2 "" V 6380 4400 50  0001 C CNN
+F 3 "~" H 6450 4400 50  0001 C CNN
+	1    6450 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 616464DD
+P 6450 4650
+F 0 "#PWR?" H 6450 4400 50  0001 C CNN
+F 1 "Earth" H 6450 4500 50  0001 C CNN
+F 2 "" H 6450 4650 50  0001 C CNN
+F 3 "~" H 6450 4650 50  0001 C CNN
+	1    6450 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4550 6450 4650
+Wire Wire Line
+	6350 4200 6450 4200
+Wire Wire Line
+	6450 4200 6450 4250
+Wire Wire Line
+	6050 4200 5850 4200
+$Comp
+L power:Earth #PWR?
+U 1 1 616470BA
+P 5550 4650
+F 0 "#PWR?" H 5550 4400 50  0001 C CNN
+F 1 "Earth" H 5550 4500 50  0001 C CNN
+F 2 "" H 5550 4650 50  0001 C CNN
+F 3 "~" H 5550 4650 50  0001 C CNN
+	1    5550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4400 5550 4650
+$Comp
+L Relay:G5V-2 K?
+U 1 1 61647A5A
+P 5150 3200
+F 0 "K?" H 4520 3246 50  0000 R CNN
+F 1 "G5V-2" H 4520 3155 50  0000 R CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 5800 3150 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 5150 3200 50  0001 C CNN
+	1    5150 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61649E5F
+P 5550 2800
+F 0 "#PWR?" H 5550 2650 50  0001 C CNN
+F 1 "+5V" H 5565 2973 50  0000 C CNN
+F 2 "" H 5550 2800 50  0001 C CNN
+F 3 "" H 5550 2800 50  0001 C CNN
+	1    5550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2800 5550 2900
+Wire Wire Line
+	5550 3500 5550 4000
+Wire Wire Line
+	6450 4200 7000 4200
+Connection ~ 6450 4200
+Text HLabel 7000 4200 2    50   Input ~ 0
+LMS_OK
+Text HLabel 4050 1700 0    50   Input ~ 0
+SDN_IN
+Wire Wire Line
+	4050 1700 5050 1700
+Wire Wire Line
+	5150 3500 5150 3750
+Wire Wire Line
+	4100 3750 4400 3750
+Text HLabel 4100 3750 0    50   Input ~ 0
+SDN_OUT
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6164B7F9
+P 4650 2500
+F 0 "J?" H 4568 2175 50  0000 C CNN
+F 1 "Conn_01x02" H 4568 2266 50  0000 C CNN
+F 2 "" H 4650 2500 50  0001 C CNN
+F 3 "~" H 4650 2500 50  0001 C CNN
+	1    4650 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2500 5050 2500
+Wire Wire Line
+	5050 2500 5050 2700
+Wire Wire Line
+	4850 2400 5050 2400
+Wire Wire Line
+	5050 1700 5050 2050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6164CDD1
+P 4000 2500
+F 0 "J?" H 3918 2175 50  0000 C CNN
+F 1 "Conn_01x02" H 3918 2266 50  0000 C CNN
+F 2 "" H 4000 2500 50  0001 C CNN
+F 3 "~" H 4000 2500 50  0001 C CNN
+	1    4000 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2400 4400 2400
+Wire Wire Line
+	4400 2400 4400 2050
+Wire Wire Line
+	4400 2050 5050 2050
+Connection ~ 5050 2050
+Wire Wire Line
+	5050 2050 5050 2400
+Wire Wire Line
+	4200 2500 4400 2500
+Wire Wire Line
+	4400 2500 4400 2700
+Wire Wire Line
+	4400 2700 5050 2700
+Connection ~ 5050 2700
+Wire Wire Line
+	5050 2700 5050 2900
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6164DF7B
+P 4000 3200
+F 0 "J?" H 3918 2875 50  0000 C CNN
+F 1 "Conn_01x02" H 3918 2966 50  0000 C CNN
+F 2 "" H 4000 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3100 4400 3100
+Wire Wire Line
+	4400 3100 4400 2700
+Connection ~ 4400 2700
+Wire Wire Line
+	4200 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3750
+Connection ~ 4400 3750
+Wire Wire Line
+	4400 3750 5150 3750
+$EndSCHEMATC

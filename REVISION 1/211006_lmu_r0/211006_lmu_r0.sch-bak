@@ -1,0 +1,193 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2050 2600 1450 400 
+U 615D6D63
+F0 "Power Supply" 50
+F1 "file615D6D62.sch" 50
+F2 "VBAT+" I L 2050 2750 50 
+F3 "VGND" I L 2050 2850 50 
+$EndSheet
+$Sheet
+S 4150 3250 2100 1250
+U 615D6DD3
+F0 "Microcontroller" 50
+F1 "file615D6DD2.sch" 50
+F2 "CAN_RX" I L 4150 3550 50 
+F3 "CAN_TX" I L 4150 3450 50 
+F4 "SPI1_CLK" I R 6250 3450 50 
+F5 "SPI1_MISO" I R 6250 3550 50 
+F6 "SPI1_MOSI" I R 6250 3650 50 
+F7 "BMS_PASSIVE_CS" I R 6250 3850 50 
+F8 "BMS_ACTIVE_CS" I R 6250 3950 50 
+F9 "TEMPERATURE_CS" I R 6250 4050 50 
+F10 "LMS_OK" I L 4150 3750 50 
+$EndSheet
+$Sheet
+S 2050 4050 1450 350 
+U 61643001
+F0 "Fault Detection Relay" 50
+F1 "file61643000.sch" 50
+F2 "LMS_OK" I R 3500 4200 50 
+F3 "SDN_IN" I L 2050 4150 50 
+F4 "SDN_OUT" I L 2050 4250 50 
+$EndSheet
+$Sheet
+S 6500 3300 1700 900 
+U 6168063A
+F0 "Digital Isolation" 50
+F1 "file61680639.sch" 50
+F2 "SPI1_CLK" I L 6500 3450 50 
+F3 "SPI1_MISO" I L 6500 3550 50 
+F4 "SPI1_MOSI" I L 6500 3650 50 
+F5 "BMS_PASSIVE_CS" I L 6500 3850 50 
+F6 "TEMPERATURE_CS" I L 6500 4050 50 
+F7 "BMS_ACTIVE_CS" I L 6500 3950 50 
+F8 "HV_SPI1_CLK" I R 8200 3450 50 
+F9 "HV_SPI1_MISO" I R 8200 3550 50 
+F10 "HV_SPI1_MOSI" I R 8200 3650 50 
+F11 "HV_BMS_PASSIVE_CS" I R 8200 3850 50 
+F12 "HV_TEMPERATURE_CS" I R 8200 4050 50 
+F13 "HV_BMS_ACTIVE_CS" I R 8200 3950 50 
+$EndSheet
+Wire Wire Line
+	6500 3450 6250 3450
+Wire Wire Line
+	6250 3550 6500 3550
+Wire Wire Line
+	6500 3650 6250 3650
+Wire Wire Line
+	6250 3850 6500 3850
+Wire Wire Line
+	6500 3950 6250 3950
+Wire Wire Line
+	6250 4050 6500 4050
+$Sheet
+S 2050 3350 1450 400 
+U 616BA638
+F0 "CAN" 50
+F1 "file616BA637.sch" 50
+F2 "CAN_TX" I R 3500 3450 50 
+F3 "CAN_RX" I R 3500 3550 50 
+F4 "CAN_H" I L 2050 3450 50 
+F5 "CAN_L" I L 2050 3550 50 
+F6 "CAN_S" I L 2050 3650 50 
+$EndSheet
+Wire Wire Line
+	3500 3450 4150 3450
+Wire Wire Line
+	4150 3550 3500 3550
+Wire Wire Line
+	3500 4200 3700 4200
+Wire Wire Line
+	3700 4200 3700 3750
+Wire Wire Line
+	3700 3750 4150 3750
+Text Label 1550 4150 0    50   ~ 0
+SDN_IN
+Text Label 1550 4250 0    50   ~ 0
+SDN_OUT
+Text Label 1550 3450 0    50   ~ 0
+CAN_P
+Text Label 1550 3550 0    50   ~ 0
+CAN_N
+Text Label 1550 2750 0    50   ~ 0
+VBAT
+Text Label 1550 2850 0    50   ~ 0
+VGND
+Wire Wire Line
+	2050 2750 1550 2750
+Wire Wire Line
+	1550 2850 2050 2850
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 616F9826
+P 1150 1050
+F 0 "J?" H 1200 1367 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1200 1276 50  0000 C CNN
+F 2 "" H 1150 1050 50  0001 C CNN
+F 3 "~" H 1150 1050 50  0001 C CNN
+	1    1150 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 1950 0    50   ~ 0
+BYPASS
+Text Label 700  950  0    50   ~ 0
+VBAT
+Text Label 1500 950  0    50   ~ 0
+VGND
+Text Label 700  1050 0    50   ~ 0
+CAN_P
+Text Label 700  1150 0    50   ~ 0
+CAN_N
+Wire Wire Line
+	1550 4150 2050 4150
+Wire Wire Line
+	2050 4250 1550 4250
+Wire Wire Line
+	2050 3450 1550 3450
+Wire Wire Line
+	1550 3550 2050 3550
+Text Label 1550 3650 0    50   ~ 0
+CAN_S
+Wire Wire Line
+	1550 3650 2050 3650
+Text Label 1500 1150 0    50   ~ 0
+CAN_S
+Wire Wire Line
+	1450 1150 1700 1150
+NoConn ~ 1450 1050
+Wire Wire Line
+	1450 950  1700 950 
+Wire Wire Line
+	950  950  700  950 
+Wire Wire Line
+	700  1050 950  1050
+Wire Wire Line
+	950  1150 700  1150
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 6170BFBA
+P 1150 1600
+F 0 "J?" H 1200 1917 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1200 1826 50  0000 C CNN
+F 2 "" H 1150 1600 50  0001 C CNN
+F 3 "~" H 1150 1600 50  0001 C CNN
+	1    1150 1600
+	1    0    0    -1  
+$EndComp
+Text Label 700  1500 0    50   ~ 0
+VBAT
+Text Label 1500 1500 0    50   ~ 0
+VGND
+Text Label 700  1600 0    50   ~ 0
+CAN_P
+Text Label 700  1700 0    50   ~ 0
+CAN_N
+Text Label 1500 1700 0    50   ~ 0
+CAN_S
+Wire Wire Line
+	1450 1700 1700 1700
+NoConn ~ 1450 1600
+Wire Wire Line
+	1450 1500 1700 1500
+Wire Wire Line
+	950  1500 700  1500
+Wire Wire Line
+	700  1600 950  1600
+Wire Wire Line
+	950  1700 700  1700
+$EndSCHEMATC
