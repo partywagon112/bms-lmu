@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 30
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2150 1700 1850 2000
+U 6161AC01
+F0 "Active Balance Group" 50
+F1 "file6196A5FB.sch" 50
+F2 "ACTIVE_TAP1" I L 2150 2800 50 
+F3 "ACTIVE_TAP2" I L 2150 2600 50 
+F4 "ACTIVE_TAP3" I L 2150 2400 50 
+F5 "ACTIVE_TAP4" I L 2150 2200 50 
+F6 "ACTIVE_TAP5" I L 2150 2000 50 
+F7 "ACTIVE_TAP6" I L 2150 1800 50 
+F8 "ACTIVE_TAP0" I L 2150 3000 50 
+F9 "C_FILTERED0" I R 4000 3000 50 
+F10 "C_FILTERED1" I R 4000 2800 50 
+F11 "C_FILTERED2" I R 4000 2600 50 
+F12 "C_FILTERED3" I R 4000 2400 50 
+F13 "C_FILTERED4" I R 4000 2200 50 
+F14 "C_FILTERED5" I R 4000 2000 50 
+F15 "C_FILTERED6" I R 4000 1800 50 
+F16 "S1" I R 4000 2900 50 
+F17 "S2" I R 4000 2700 50 
+F18 "S3" I R 4000 2500 50 
+F19 "S4" I R 4000 2300 50 
+F20 "S5" I R 4000 2100 50 
+F21 "S6" I R 4000 1900 50 
+$EndSheet
+$Sheet
+S 2150 4100 1850 2000
+U 6161D6CD
+F0 "sheet6161D6B7" 50
+F1 "file6196A5FB.sch" 50
+F2 "ACTIVE_TAP1" I L 2150 5200 50 
+F3 "ACTIVE_TAP2" I L 2150 5000 50 
+F4 "ACTIVE_TAP3" I L 2150 4800 50 
+F5 "ACTIVE_TAP4" I L 2150 4600 50 
+F6 "ACTIVE_TAP5" I L 2150 4400 50 
+F7 "ACTIVE_TAP6" I L 2150 4200 50 
+F8 "ACTIVE_TAP0" I L 2150 5400 50 
+F9 "C_FILTERED0" I R 4000 5400 50 
+F10 "C_FILTERED1" I R 4000 5200 50 
+F11 "C_FILTERED2" I R 4000 5000 50 
+F12 "C_FILTERED3" I R 4000 4800 50 
+F13 "C_FILTERED4" I R 4000 4600 50 
+F14 "C_FILTERED5" I R 4000 4400 50 
+F15 "C_FILTERED6" I R 4000 4200 50 
+F16 "S1" I R 4000 5300 50 
+F17 "S2" I R 4000 5100 50 
+F18 "S3" I R 4000 4900 50 
+F19 "S4" I R 4000 4700 50 
+F20 "S5" I R 4000 4500 50 
+F21 "S6" I R 4000 4300 50 
+$EndSheet
+$Comp
+L LTC6811HG-2_PBF:LTC6811HG-2#PBF U?
+U 1 1 6161D83E
+P 7950 3700
+F 0 "U?" H 7950 5567 50  0000 C CNN
+F 1 "LTC6811HG-2#PBF" H 7950 5476 50  0000 C CNN
+F 2 "SOP50P780X200-48N" H 7950 3700 50  0001 L BNN
+F 3 "" H 7950 3700 50  0001 L BNN
+F 4 "Linear Technology" H 7950 3700 50  0001 L BNN "MANUFACTURER"
+	1    7950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4200 4400 4200
+Wire Wire Line
+	4400 4200 4400 3000
+Wire Wire Line
+	4400 3000 4000 3000
+Wire Wire Line
+	4400 3000 4550 3000
+Connection ~ 4400 3000
+Wire Wire Line
+	4550 2800 4000 2800
+Wire Wire Line
+	4000 2600 4550 2600
+Wire Wire Line
+	4000 2400 4550 2400
+Wire Wire Line
+	4000 2200 4550 2200
+Wire Wire Line
+	4000 2000 4550 2000
+Wire Wire Line
+	4000 1800 4550 1800
+Wire Wire Line
+	2150 1800 1600 1800
+Wire Wire Line
+	2150 2000 1600 2000
+Wire Wire Line
+	2150 2200 1600 2200
+Wire Wire Line
+	2150 2400 1600 2400
+Wire Wire Line
+	2150 2600 1600 2600
+Wire Wire Line
+	2150 2800 1600 2800
+Wire Wire Line
+	2150 3000 1800 3000
+Wire Wire Line
+	1800 3000 1800 4200
+Wire Wire Line
+	1800 4200 2150 4200
+Wire Wire Line
+	1800 4200 1600 4200
+Connection ~ 1800 4200
+Wire Wire Line
+	2150 4400 1600 4400
+Wire Wire Line
+	2150 4600 1600 4600
+Wire Wire Line
+	2150 4800 1600 4800
+Wire Wire Line
+	2150 5000 1600 5000
+Wire Wire Line
+	2150 5200 1600 5200
+Wire Wire Line
+	2150 5400 1600 5400
+Wire Wire Line
+	4550 5400 4000 5400
+Wire Wire Line
+	4000 5200 4550 5200
+Wire Wire Line
+	4000 5000 4550 5000
+Wire Wire Line
+	4000 4800 4550 4800
+Wire Wire Line
+	4000 4600 4550 4600
+Wire Wire Line
+	4000 4400 4550 4400
+Wire Wire Line
+	4000 1900 4250 1900
+Wire Wire Line
+	4000 2100 4250 2100
+Wire Wire Line
+	4000 2300 4250 2300
+Wire Wire Line
+	4000 2700 4250 2700
+Wire Wire Line
+	4000 2900 4250 2900
+Wire Wire Line
+	4000 4300 4250 4300
+Wire Wire Line
+	4000 4500 4250 4500
+Wire Wire Line
+	4000 4700 4250 4700
+Wire Wire Line
+	4000 4900 4250 4900
+Wire Wire Line
+	4000 5100 4250 5100
+Wire Wire Line
+	4000 5300 4250 5300
+Wire Wire Line
+	4000 2500 4250 2500
+Text Label 4250 5300 0    50   ~ 0
+S1
+Text Label 4250 5100 0    50   ~ 0
+S2
+Text Label 4250 4900 0    50   ~ 0
+S3
+Text Label 4250 4700 0    50   ~ 0
+S4
+Text Label 4250 4500 0    50   ~ 0
+S5
+Text Label 4250 4300 0    50   ~ 0
+S6
+Text Label 4250 2900 0    50   ~ 0
+S7
+Text Label 4250 2700 0    50   ~ 0
+S8
+Text Label 4250 2500 0    50   ~ 0
+S9
+Text Label 4250 2300 0    50   ~ 0
+S10
+Text Label 4250 2100 0    50   ~ 0
+S11
+Text Label 4250 1900 0    50   ~ 0
+S12
+Text Label 4550 5400 0    50   ~ 0
+C0
+Text Label 4550 5200 0    50   ~ 0
+C1
+Text Label 4550 5000 0    50   ~ 0
+C2
+Text Label 4550 4800 0    50   ~ 0
+C3
+Text Label 4550 4600 0    50   ~ 0
+C4
+Text Label 4550 4400 0    50   ~ 0
+C5
+Text Label 4550 3000 0    50   ~ 0
+C6
+Text Label 4550 2800 0    50   ~ 0
+C7
+Text Label 4550 2600 0    50   ~ 0
+C8
+Text Label 4550 2400 0    50   ~ 0
+C9
+Text Label 4550 2200 0    50   ~ 0
+C10
+Text Label 4550 2000 0    50   ~ 0
+C11
+Text Label 4550 1800 0    50   ~ 0
+C12
+Text HLabel 1600 5400 0    50   Input ~ 0
+TAP0
+Text HLabel 1600 5200 0    50   Input ~ 0
+TAP1
+Text HLabel 1600 5000 0    50   Input ~ 0
+TAP2
+Text HLabel 1600 4800 0    50   Input ~ 0
+TAP3
+Text HLabel 1600 4600 0    50   Input ~ 0
+TAP4
+Text HLabel 1600 4400 0    50   Input ~ 0
+TAP5
+Text HLabel 1600 4200 0    50   Input ~ 0
+TAP6
+Text HLabel 1600 2800 0    50   Input ~ 0
+TAP7
+Text HLabel 1600 2600 0    50   Input ~ 0
+TAP8
+Text HLabel 1600 2400 0    50   Input ~ 0
+TAP9
+Text HLabel 1600 2200 0    50   Input ~ 0
+TAP10
+Text HLabel 1600 2000 0    50   Input ~ 0
+TAP11
+Text HLabel 1600 1800 0    50   Input ~ 0
+TAP12
+Text Label 6750 2600 0    50   ~ 0
+C0
+Text Label 6750 2700 0    50   ~ 0
+C1
+Text Label 6750 2800 0    50   ~ 0
+C2
+Text Label 6750 2900 0    50   ~ 0
+C3
+Text Label 6750 3000 0    50   ~ 0
+C4
+Text Label 6750 3100 0    50   ~ 0
+C5
+Text Label 6750 3200 0    50   ~ 0
+C6
+Text Label 6750 3300 0    50   ~ 0
+C7
+Text Label 6750 3400 0    50   ~ 0
+C8
+Text Label 6750 3500 0    50   ~ 0
+C9
+Text Label 6750 3600 0    50   ~ 0
+C10
+Text Label 6750 3700 0    50   ~ 0
+C11
+Text Label 6750 3800 0    50   ~ 0
+C12
+Wire Wire Line
+	6750 2600 6950 2600
+Wire Wire Line
+	6950 2700 6750 2700
+Wire Wire Line
+	6750 2800 6950 2800
+Wire Wire Line
+	6950 2900 6750 2900
+Wire Wire Line
+	6750 3000 6950 3000
+Wire Wire Line
+	6950 3100 6750 3100
+Wire Wire Line
+	6750 3200 6950 3200
+Wire Wire Line
+	6750 3300 6950 3300
+Wire Wire Line
+	6750 3400 6950 3400
+Wire Wire Line
+	6950 3500 6750 3500
+Wire Wire Line
+	6750 3600 6950 3600
+Wire Wire Line
+	6950 3700 6750 3700
+Wire Wire Line
+	6750 3800 6950 3800
+Text Label 9150 2700 0    50   ~ 0
+S1
+Text Label 9150 2800 0    50   ~ 0
+S2
+Text Label 9150 2900 0    50   ~ 0
+S3
+Text Label 9150 3000 0    50   ~ 0
+S4
+Text Label 9150 3100 0    50   ~ 0
+S5
+Text Label 9150 3200 0    50   ~ 0
+S6
+Text Label 9150 3300 0    50   ~ 0
+S7
+Text Label 9150 3400 0    50   ~ 0
+S8
+Text Label 9150 3500 0    50   ~ 0
+S9
+Text Label 9150 3600 0    50   ~ 0
+S10
+Text Label 9150 3700 0    50   ~ 0
+S11
+Text Label 9150 3800 0    50   ~ 0
+S12
+Wire Wire Line
+	9150 2700 8950 2700
+Wire Wire Line
+	8950 2800 9150 2800
+Wire Wire Line
+	9150 2900 8950 2900
+Wire Wire Line
+	8950 3000 9150 3000
+Wire Wire Line
+	9150 3100 8950 3100
+Wire Wire Line
+	8950 3200 9150 3200
+Wire Wire Line
+	8950 3300 9150 3300
+Wire Wire Line
+	8950 3400 9150 3400
+Wire Wire Line
+	9150 3500 8950 3500
+Wire Wire Line
+	8950 3600 9150 3600
+Wire Wire Line
+	9150 3700 8950 3700
+Wire Wire Line
+	8950 3800 9150 3800
+$EndSCHEMATC
