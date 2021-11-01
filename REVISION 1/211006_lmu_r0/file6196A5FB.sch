@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 30
+Sheet 16 30
 Title ""
 Date ""
 Rev ""
@@ -214,101 +214,17 @@ Wire Wire Line
 	2200 5600 2200 4350
 Wire Wire Line
 	2700 7100 1950 7100
-$Comp
-L Device:Fuse F?
-U 1 1 6199D1BE
-P 1500 900
-AR Path="/6196A5FC/6199D1BE" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161AC01/6199D1BE" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161D6CD/6199D1BE" Ref="F?"  Part="1" 
-F 0 "F?" V 1303 900 50  0000 C CNN
-F 1 "Fuse" V 1394 900 50  0000 C CNN
-F 2 "" V 1430 900 50  0001 C CNN
-F 3 "~" H 1500 900 50  0001 C CNN
-	1    1500 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6199D893
-P 1500 2100
-AR Path="/6196A5FC/6199D893" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161AC01/6199D893" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161D6CD/6199D893" Ref="F?"  Part="1" 
-F 0 "F?" V 1303 2100 50  0000 C CNN
-F 1 "Fuse" V 1394 2100 50  0000 C CNN
-F 2 "" V 1430 2100 50  0001 C CNN
-F 3 "~" H 1500 2100 50  0001 C CNN
-	1    1500 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6199DF02
-P 1500 3350
-AR Path="/6196A5FC/6199DF02" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161AC01/6199DF02" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161D6CD/6199DF02" Ref="F?"  Part="1" 
-F 0 "F?" V 1303 3350 50  0000 C CNN
-F 1 "Fuse" V 1394 3350 50  0000 C CNN
-F 2 "" V 1430 3350 50  0001 C CNN
-F 3 "~" H 1500 3350 50  0001 C CNN
-	1    1500 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6199E43C
-P 1500 4550
-AR Path="/6196A5FC/6199E43C" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161AC01/6199E43C" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161D6CD/6199E43C" Ref="F?"  Part="1" 
-F 0 "F?" V 1303 4550 50  0000 C CNN
-F 1 "Fuse" V 1394 4550 50  0000 C CNN
-F 2 "" V 1430 4550 50  0001 C CNN
-F 3 "~" H 1500 4550 50  0001 C CNN
-	1    1500 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6199E95D
-P 1500 5800
-AR Path="/6196A5FC/6199E95D" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161AC01/6199E95D" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161D6CD/6199E95D" Ref="F?"  Part="1" 
-F 0 "F?" V 1303 5800 50  0000 C CNN
-F 1 "Fuse" V 1394 5800 50  0000 C CNN
-F 2 "" V 1430 5800 50  0001 C CNN
-F 3 "~" H 1500 5800 50  0001 C CNN
-	1    1500 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 6199EF02
-P 1500 7000
-AR Path="/6196A5FC/6199EF02" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161AC01/6199EF02" Ref="F?"  Part="1" 
-AR Path="/61619F34/6161D6CD/6199EF02" Ref="F?"  Part="1" 
-F 0 "F?" V 1303 7000 50  0000 C CNN
-F 1 "Fuse" V 1394 7000 50  0000 C CNN
-F 2 "" V 1430 7000 50  0001 C CNN
-F 3 "~" H 1500 7000 50  0001 C CNN
-	1    1500 7000
-	0    1    1    0   
-$EndComp
-Text HLabel 1350 7000 0    50   Input ~ 0
+Text HLabel 1650 7000 0    50   Input ~ 0
 ACTIVE_TAP1
-Text HLabel 1350 5800 0    50   Input ~ 0
+Text HLabel 1650 5800 0    50   Input ~ 0
 ACTIVE_TAP2
-Text HLabel 1350 4550 0    50   Input ~ 0
+Text HLabel 1650 4550 0    50   Input ~ 0
 ACTIVE_TAP3
-Text HLabel 1350 3350 0    50   Input ~ 0
+Text HLabel 1650 3350 0    50   Input ~ 0
 ACTIVE_TAP4
-Text HLabel 1350 2100 0    50   Input ~ 0
+Text HLabel 1650 2100 0    50   Input ~ 0
 ACTIVE_TAP5
-Text HLabel 1350 900  0    50   Input ~ 0
+Text HLabel 1650 900  0    50   Input ~ 0
 ACTIVE_TAP6
 Wire Wire Line
 	2300 7300 1950 7300
@@ -317,8 +233,8 @@ Wire Wire Line
 	1950 7100 1950 7300
 Connection ~ 1950 7300
 Wire Wire Line
-	1950 7300 1350 7300
-Text HLabel 1350 7300 0    50   Input ~ 0
+	1950 7300 1650 7300
+Text HLabel 1650 7300 0    50   Input ~ 0
 ACTIVE_TAP0
 Wire Wire Line
 	1650 900  2700 900 
@@ -629,4 +545,52 @@ Text Label 9150 4700 0    50   ~ 0
 V-
 Wire Wire Line
 	8950 4700 9150 4700
+Text Label 6700 4000 0    50   ~ 0
+V-
+Wire Wire Line
+	6700 4000 7150 4000
+Text HLabel 6700 4300 0    50   Input ~ 0
+SDI
+Text HLabel 6700 4400 0    50   Input ~ 0
+SDO
+Wire Wire Line
+	6700 4300 7150 4300
+Wire Wire Line
+	7150 4400 6700 4400
+Text HLabel 6950 3500 0    50   Input ~ 0
+A0
+Text HLabel 6950 3600 0    50   Input ~ 0
+A1
+Text HLabel 6950 3700 0    50   Input ~ 0
+A2
+Text HLabel 6950 3800 0    50   Input ~ 0
+A3
+Text HLabel 6950 3900 0    50   Input ~ 0
+A4
+Wire Wire Line
+	6950 3500 7150 3500
+Wire Wire Line
+	7150 3600 6950 3600
+Wire Wire Line
+	6950 3700 7150 3700
+Wire Wire Line
+	7150 3800 6950 3800
+Wire Wire Line
+	6950 3900 7150 3900
+Text HLabel 6700 4200 0    50   Input ~ 0
+SCKI
+Text HLabel 6700 4100 0    50   Input ~ 0
+nCSBI
+Wire Wire Line
+	6700 4100 7150 4100
+Wire Wire Line
+	6700 4200 7150 4200
+Wire Wire Line
+	8950 2100 9150 2100
+Text Label 9150 2100 0    50   ~ 0
+VREG
+Text Label 6700 4500 0    50   ~ 0
+VREG
+Wire Wire Line
+	6700 4500 7150 4500
 $EndSCHEMATC

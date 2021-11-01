@@ -37,15 +37,6 @@ F9 "TEMPERATURE_CS" I R 6500 4050 50
 F10 "LMS_OK" I L 4400 3750 50 
 $EndSheet
 $Sheet
-S 2500 4050 1450 350 
-U 61643001
-F0 "Fault Detection Relay" 50
-F1 "file61643000.sch" 50
-F2 "LMS_OK" I R 3950 4200 50 
-F3 "SDN_IN" I L 2500 4150 50 
-F4 "SDN_OUT" I L 2500 4250 50 
-$EndSheet
-$Sheet
 S 6700 3300 1700 900 
 U 6168063A
 F0 "Digital Isolation" 50
@@ -91,15 +82,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 3550 3950 3550
 Wire Wire Line
-	3950 4200 4150 4200
-Wire Wire Line
 	4150 4200 4150 3750
 Wire Wire Line
 	4150 3750 4400 3750
-Text Label 2000 4150 0    50   ~ 0
-SDN_IN
-Text Label 2000 4250 0    50   ~ 0
-SDN_OUT
 Text Label 2000 3450 0    50   ~ 0
 CAN_P
 Text Label 2000 3550 0    50   ~ 0
@@ -115,28 +100,24 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 616F9826
-P 2300 950
-F 0 "J?" H 2350 1267 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 2350 1176 50  0000 C CNN
-F 2 "" H 2300 950 50  0001 C CNN
-F 3 "~" H 2300 950 50  0001 C CNN
-	1    2300 950 
+P 1800 1200
+F 0 "J?" H 1850 1517 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1850 1426 50  0000 C CNN
+F 2 "" H 1800 1200 50  0001 C CNN
+F 3 "~" H 1800 1200 50  0001 C CNN
+	1    1800 1200
 	1    0    0    -1  
 $EndComp
-Text Notes 2200 1850 0    50   ~ 0
+Text Notes 1700 2100 0    50   ~ 0
 BYPASS
-Text Label 1850 850  0    50   ~ 0
+Text Label 1350 1100 0    50   ~ 0
 VBAT
-Text Label 2650 850  0    50   ~ 0
+Text Label 2150 1100 0    50   ~ 0
 VGND
-Text Label 1850 950  0    50   ~ 0
+Text Label 1350 1200 0    50   ~ 0
 CAN_P
-Text Label 1850 1050 0    50   ~ 0
+Text Label 1350 1300 0    50   ~ 0
 CAN_N
-Wire Wire Line
-	2000 4150 2500 4150
-Wire Wire Line
-	2500 4250 2000 4250
 Wire Wire Line
 	2500 3450 2000 3450
 Wire Wire Line
@@ -145,51 +126,51 @@ Text Label 2000 3650 0    50   ~ 0
 CAN_S
 Wire Wire Line
 	2000 3650 2500 3650
-Text Label 2650 1050 0    50   ~ 0
+Text Label 2150 1300 0    50   ~ 0
 CAN_S
 Wire Wire Line
-	2600 1050 2850 1050
-NoConn ~ 2600 950 
+	2100 1300 2350 1300
+NoConn ~ 2100 1200
 Wire Wire Line
-	2600 850  2850 850 
+	2100 1100 2350 1100
 Wire Wire Line
-	2100 850  1850 850 
+	1600 1100 1350 1100
 Wire Wire Line
-	1850 950  2100 950 
+	1350 1200 1600 1200
 Wire Wire Line
-	2100 1050 1850 1050
+	1600 1300 1350 1300
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 6170BFBA
-P 2300 1500
-F 0 "J?" H 2350 1817 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 2350 1726 50  0000 C CNN
-F 2 "" H 2300 1500 50  0001 C CNN
-F 3 "~" H 2300 1500 50  0001 C CNN
-	1    2300 1500
+P 1800 1750
+F 0 "J?" H 1850 2067 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1850 1976 50  0000 C CNN
+F 2 "" H 1800 1750 50  0001 C CNN
+F 3 "~" H 1800 1750 50  0001 C CNN
+	1    1800 1750
 	1    0    0    -1  
 $EndComp
-Text Label 1850 1400 0    50   ~ 0
+Text Label 1350 1650 0    50   ~ 0
 VBAT
-Text Label 2650 1400 0    50   ~ 0
+Text Label 2150 1650 0    50   ~ 0
 VGND
-Text Label 1850 1500 0    50   ~ 0
+Text Label 1350 1750 0    50   ~ 0
 CAN_P
-Text Label 1850 1600 0    50   ~ 0
+Text Label 1350 1850 0    50   ~ 0
 CAN_N
-Text Label 2650 1600 0    50   ~ 0
+Text Label 2150 1850 0    50   ~ 0
 CAN_S
 Wire Wire Line
-	2600 1600 2850 1600
-NoConn ~ 2600 1500
+	2100 1850 2350 1850
+NoConn ~ 2100 1750
 Wire Wire Line
-	2600 1400 2850 1400
+	2100 1650 2350 1650
 Wire Wire Line
-	2100 1400 1850 1400
+	1600 1650 1350 1650
 Wire Wire Line
-	1850 1500 2100 1500
+	1350 1750 1600 1750
 Wire Wire Line
-	2100 1600 1850 1600
+	1600 1850 1350 1850
 $Sheet
 S 8900 2400 1100 900 
 U 6171146A
@@ -279,17 +260,6 @@ F 3 "~" H 10450 2800 50  0001 C CNN
 	1    10450 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 617103E5
-P 10800 3250
-F 0 "#PWR?" H 10800 3000 50  0001 C CNN
-F 1 "GND" H 10805 3077 50  0000 C CNN
-F 2 "" H 10800 3250 50  0001 C CNN
-F 3 "" H 10800 3250 50  0001 C CNN
-	1    10800 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10250 3200 10000 3200
 Wire Wire Line
@@ -345,4 +315,34 @@ Wire Wire Line
 Connection ~ 10800 2600
 Wire Wire Line
 	10800 2600 10800 2700
+Wire Wire Line
+	2500 4250 2000 4250
+Wire Wire Line
+	2000 4150 2500 4150
+Text Label 2000 4250 0    50   ~ 0
+SDN_OUT
+Text Label 2000 4150 0    50   ~ 0
+SDN_IN
+$Sheet
+S 2500 4050 1450 350 
+U 61643001
+F0 "Fault Detection Relay" 50
+F1 "file61643000.sch" 50
+F2 "LMS_OK" I R 3950 4200 50 
+F3 "SDN_IN" I L 2500 4150 50 
+F4 "SDN_OUT" I L 2500 4250 50 
+$EndSheet
+Wire Wire Line
+	3950 4200 4150 4200
+$Comp
+L gnd_iso:GND_ISO #PWR?
+U 1 1 61694729
+P 10800 3250
+F 0 "#PWR?" H 10800 3000 50  0001 C CNN
+F 1 "GND_ISO" H 10805 3077 50  0000 C CNN
+F 2 "" H 10800 3250 50  0001 C CNN
+F 3 "" H 10800 3250 50  0001 C CNN
+	1    10800 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

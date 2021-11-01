@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 30
+Sheet 17 30
 Title ""
 Date ""
 Rev ""
@@ -1268,9 +1268,9 @@ Wire Wire Line
 	9500 3650 10200 3650
 Text Notes 7500 3950 0    50   ~ 0
 Secondary connected to the highest \nand lowest potential of the active \nbalancing interface.
-Text Notes 4450 4950 0    50   ~ 0
+Text Notes 4500 5000 0    50   ~ 0
 Uses a shunt resistor to measure the\n current through the coils\n
-Text Notes 4400 2600 0    50   ~ 0
+Text Notes 4450 2600 0    50   ~ 0
 The coil is configured to act as a 2:1 coil.\nCan move 10A if required.
 Text Notes 1250 4950 0    50   ~ 0
 Passive discharge circuit, controlled by the LTC6811
