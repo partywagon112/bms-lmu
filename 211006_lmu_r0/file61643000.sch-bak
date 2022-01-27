@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 30 34
+Sheet 31 35
 Title ""
 Date ""
 Rev ""
@@ -54,8 +54,6 @@ F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 5550 3200 5
 	1    5550 3200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 2800 5950 2850
 Wire Wire Line
 	5950 3500 5950 4000
 Wire Wire Line
@@ -160,12 +158,12 @@ $EndComp
 $Comp
 L +3v3_iso:+3V3_ISO #PWR?
 U 1 1 616724FA
-P 5950 2800
-F 0 "#PWR?" H 5950 2650 50  0001 C CNN
-F 1 "+3V3_ISO" H 5965 2973 50  0000 C CNN
-F 2 "" H 5950 2800 50  0001 C CNN
-F 3 "" H 5950 2800 50  0001 C CNN
-	1    5950 2800
+P 5450 2800
+F 0 "#PWR?" H 5450 2650 50  0001 C CNN
+F 1 "+3V3_ISO" H 5465 2973 50  0000 C CNN
+F 2 "" H 5450 2800 50  0001 C CNN
+F 3 "" H 5450 2800 50  0001 C CNN
+	1    5450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -192,13 +190,6 @@ F 3 "" H 6850 4650 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	5300 7750 5300 550 
-Wire Wire Line
-	5650 2900 5650 2850
-Wire Wire Line
-	5650 2850 5950 2850
-Connection ~ 5950 2850
-Wire Wire Line
-	5950 2850 5950 2900
 $Comp
 L Device:R R?
 U 1 1 61677209
@@ -214,25 +205,40 @@ Wire Wire Line
 	6450 3700 5550 3700
 Wire Wire Line
 	5550 3700 5550 3500
-$Comp
-L gnd_iso:GND_ISO #PWR?
-U 1 1 616783FF
-P 5600 2550
-F 0 "#PWR?" H 5600 2300 50  0001 C CNN
-F 1 "GND_ISO" H 5605 2377 50  0000 C CNN
-F 2 "" H 5600 2550 50  0001 C CNN
-F 3 "" H 5600 2550 50  0001 C CNN
-	1    5600 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 2900 5450 2500
-Wire Wire Line
-	5450 2500 5600 2500
-Wire Wire Line
-	5600 2500 5600 2550
 Text HLabel 7400 3700 2    50   Input ~ 0
 LMS_OK_FB
 Wire Wire Line
 	7400 3700 6750 3700
+Wire Wire Line
+	5950 2800 5950 2900
+Wire Wire Line
+	5450 2900 5450 2800
+$Comp
+L gnd_iso:GND_ISO #PWR?
+U 1 1 61F2F9D2
+P 6350 2700
+F 0 "#PWR?" H 6350 2450 50  0001 C CNN
+F 1 "GND_ISO" H 6355 2527 50  0000 C CNN
+F 2 "" H 6350 2700 50  0001 C CNN
+F 3 "" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2450 6350 2450
+Wire Wire Line
+	6350 2450 6350 2700
+Wire Wire Line
+	5650 2450 5650 2900
+$Comp
+L +3v3_iso:+3V3_ISO #PWR?
+U 1 1 61F30BD9
+P 5950 2800
+F 0 "#PWR?" H 5950 2650 50  0001 C CNN
+F 1 "+3V3_ISO" H 5965 2973 50  0000 C CNN
+F 2 "" H 5950 2800 50  0001 C CNN
+F 3 "" H 5950 2800 50  0001 C CNN
+	1    5950 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
