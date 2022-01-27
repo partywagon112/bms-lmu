@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 30
+Sheet 35 35
 Title ""
 Date ""
 Rev ""
@@ -327,18 +327,10 @@ Text HLabel 7400 4300 2    50   Input ~ 0
 SPI1_MISO
 Text HLabel 7400 4400 2    50   Input ~ 0
 SPI1_MOSI
-Text Label 4800 3800 0    50   ~ 0
-BMS_PASSIVE_CS
-Text Label 4800 3900 0    50   ~ 0
-BMS_ACTIVE_CS
 Text Label 4800 4700 0    50   ~ 0
 TEMPERATURE_CS
 Wire Wire Line
 	4800 4700 5600 4700
-Wire Wire Line
-	4800 3900 5600 3900
-Wire Wire Line
-	5600 3800 4800 3800
 Wire Wire Line
 	1250 2050 1350 2050
 $Comp
@@ -352,12 +344,6 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresigh
 	1    1350 1450
 	1    0    0    -1  
 $EndComp
-Text HLabel 4800 3800 0    50   Input ~ 0
-BMS_PASSIVE_CS
-Text HLabel 4800 3900 0    50   Input ~ 0
-BMS_ACTIVE_CS
-Text HLabel 4800 4700 0    50   Input ~ 0
-TEMPERATURE_CS
 Text Label 7100 4600 0    50   ~ 0
 LMS_OK
 Wire Wire Line
@@ -543,8 +529,6 @@ Wire Wire Line
 	3850 4800 5600 4800
 Wire Wire Line
 	1800 4200 1800 5100
-Text HLabel 7400 4500 2    50   Input ~ 0
-LMS_OK_FB
 Wire Wire Line
 	7400 4500 6900 4500
 Text Label 7000 4500 0    50   ~ 0
@@ -790,4 +774,34 @@ F 3 "" H 1350 850 50  0001 C CNN
 	1    1350 850 
 	1    0    0    -1  
 $EndComp
+Text HLabel 5450 3700 0    50   Input ~ 0
+CS_ACTIVE_UPPER
+Text HLabel 5450 3800 0    50   Input ~ 0
+WDT_ACTIVE_UPPER
+Text HLabel 7400 4100 2    50   Input ~ 0
+WDT_PASSIVE
+Text HLabel 7400 3700 2    50   Input ~ 0
+CS_TEMPERATURE
+Text HLabel 7400 3800 2    50   Input ~ 0
+CS_PASSIVE
+Text HLabel 7400 4500 2    50   Input ~ 0
+LMS_OK_FB
+Text HLabel 5450 3900 0    50   Input ~ 0
+CS_ACTIVE_LOWER
+Text HLabel 5450 4000 0    50   Input ~ 0
+WDT_ACTIVE_LOWER
+Wire Wire Line
+	7400 3700 6900 3700
+Wire Wire Line
+	6900 3800 7400 3800
+Wire Wire Line
+	7400 4100 6900 4100
+Wire Wire Line
+	5450 3700 5600 3700
+Wire Wire Line
+	5450 3800 5600 3800
+Wire Wire Line
+	5450 3900 5600 3900
+Wire Wire Line
+	5450 4000 5600 4000
 $EndSCHEMATC

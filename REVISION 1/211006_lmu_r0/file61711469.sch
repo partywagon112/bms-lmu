@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 30
+Sheet 5 35
 Title ""
 Date ""
 Rev ""
@@ -161,28 +161,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 5100 3400 5100
 $Comp
-L power:GND #PWR?
-U 1 1 616D3F2D
-P 8750 4250
-F 0 "#PWR?" H 8750 4000 50  0001 C CNN
-F 1 "GND" H 8755 4077 50  0000 C CNN
-F 2 "" H 8750 4250 50  0001 C CNN
-F 3 "" H 8750 4250 50  0001 C CNN
-	1    8750 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 616D43C6
-P 8750 3150
-F 0 "#PWR?" H 8750 3000 50  0001 C CNN
-F 1 "+5V" H 8765 3323 50  0000 C CNN
-F 2 "" H 8750 3150 50  0001 C CNN
-F 3 "" H 8750 3150 50  0001 C CNN
-	1    8750 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 616D49CF
 P 7700 3450
@@ -208,7 +186,6 @@ Wire Wire Line
 	8450 3350 7600 3350
 Wire Wire Line
 	7600 3150 8750 3150
-Connection ~ 8750 4250
 Connection ~ 8150 4250
 Wire Wire Line
 	7600 4150 7600 4250
@@ -256,7 +233,6 @@ Wire Wire Line
 	8750 3750 8750 4250
 Wire Wire Line
 	8750 3150 8750 3450
-Connection ~ 8750 3150
 Wire Wire Line
 	8150 3750 8150 4250
 Wire Wire Line
@@ -279,4 +255,14 @@ Wire Wire Line
 	8450 3750 8450 4250
 Wire Wire Line
 	8750 4250 8450 4250
+Text HLabel 9100 3150 2    50   Input ~ 0
+VREG
+Text HLabel 9050 4250 2    50   Input ~ 0
+GND
+Wire Wire Line
+	8750 3150 9100 3150
+Connection ~ 8750 3150
+Wire Wire Line
+	9050 4250 8750 4250
+Connection ~ 8750 4250
 $EndSCHEMATC

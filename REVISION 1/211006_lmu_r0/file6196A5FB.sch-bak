@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 30
+Sheet 24 34
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 $Sheet
 S 2700 600  1400 1000
-U 6196A6CE
+U 6234DCC2
 F0 "Active_Passive_Balance_Filter" 50
 F1 "active_passive_balance.sch" 50
 F2 "C_FILTERED_N" I R 4100 900 50 
@@ -287,11 +287,14 @@ Wire Wire Line
 	4400 7000 4700 7000
 $Comp
 L LTC3300ILXE-2_PBF:LTC3300ILXE-2#PBF U?
-U 1 1 619B505D
+U 1 1 6234DCC8
 P 8050 3400
-AR Path="/6196A5FC/619B505D" Ref="U?"  Part="1" 
-AR Path="/61619F34/6161AC01/619B505D" Ref="U?"  Part="1" 
-AR Path="/61619F34/6161D6CD/619B505D" Ref="U?"  Part="1" 
+AR Path="/6196A5FC/6234DCC8" Ref="U?"  Part="1" 
+AR Path="/61619F34/6161AC01/6234DCC8" Ref="U?"  Part="1" 
+AR Path="/61619F34/6161D6CD/6234DCC8" Ref="U?"  Part="1" 
+AR Path="/61619F34/61F7AB68/6234DCC8" Ref="U?"  Part="1" 
+AR Path="/61619F34/62061D33/6234DCC8" Ref="U?"  Part="1" 
+AR Path="/61619F34/6209AB17/6234DCC8" Ref="U?"  Part="1" 
 F 0 "U?" H 8050 4970 50  0000 C CNN
 F 1 "LTC3300ILXE-2#PBF" H 8050 4879 50  0000 C CNN
 F 2 "QFP50P900X900X160-49N" H 8050 3400 50  0001 L BNN
@@ -545,10 +548,10 @@ Text Label 9150 4700 0    50   ~ 0
 V-
 Wire Wire Line
 	8950 4700 9150 4700
-Text Label 6650 4000 0    50   ~ 0
+Text Label 6700 4000 0    50   ~ 0
 V-
 Wire Wire Line
-	6650 4000 7150 4000
+	6700 4000 7150 4000
 Text HLabel 6700 4300 0    50   Input ~ 0
 SDI
 Text HLabel 6700 4400 0    50   Input ~ 0
@@ -577,4 +580,170 @@ Wire Wire Line
 	7150 3800 6950 3800
 Wire Wire Line
 	6950 3900 7150 3900
+Text HLabel 6700 4200 0    50   Input ~ 0
+SCKI
+Text HLabel 6700 4100 0    50   Input ~ 0
+nCSBI
+Wire Wire Line
+	6700 4100 7150 4100
+Wire Wire Line
+	6700 4200 7150 4200
+Wire Wire Line
+	8950 2100 9150 2100
+Text Label 9150 2100 0    50   ~ 0
+VREG
+Text Label 6700 4500 0    50   ~ 0
+VREG
+Wire Wire Line
+	6700 4500 7150 4500
+$Comp
+L Device:R R?
+U 1 1 61F30A1E
+P 10250 4500
+AR Path="/61619F34/6161AC01/61F30A1E" Ref="R?"  Part="1" 
+AR Path="/61619F34/61F7AB68/61F30A1E" Ref="R?"  Part="1" 
+AR Path="/61619F34/62061D33/61F30A1E" Ref="R?"  Part="1" 
+AR Path="/61619F34/6209AB17/61F30A1E" Ref="R?"  Part="1" 
+F 0 "R?" H 10320 4546 50  0000 L CNN
+F 1 "23.7k" H 10320 4455 50  0000 L CNN
+F 2 "" V 10180 4500 50  0001 C CNN
+F 3 "~" H 10250 4500 50  0001 C CNN
+	1    10250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4300 10250 4300
+Wire Wire Line
+	10250 4300 10250 4350
+$Comp
+L Device:R R?
+U 1 1 6234DCCA
+P 10600 4500
+AR Path="/61619F34/6161AC01/6234DCCA" Ref="R?"  Part="1" 
+AR Path="/61619F34/61F7AB68/6234DCCA" Ref="R?"  Part="1" 
+AR Path="/61619F34/62061D33/6234DCCA" Ref="R?"  Part="1" 
+AR Path="/61619F34/6209AB17/6234DCCA" Ref="R?"  Part="1" 
+F 0 "R?" H 10670 4546 50  0000 L CNN
+F 1 "33.2k" H 10670 4455 50  0000 L CNN
+F 2 "" V 10530 4500 50  0001 C CNN
+F 3 "~" H 10600 4500 50  0001 C CNN
+	1    10600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4200 10600 4200
+Wire Wire Line
+	10600 4200 10600 4350
+Text Label 10250 4800 0    50   ~ 0
+V-
+Text Label 10600 4800 0    50   ~ 0
+V-
+Wire Wire Line
+	10250 4650 10250 4800
+Wire Wire Line
+	10600 4800 10600 4650
+Text HLabel 6700 4500 0    50   Input ~ 0
+VREG
+Text Label 9150 3600 0    50   ~ 0
+C1
+Text Label 9150 3700 0    50   ~ 0
+C2
+Text Label 9150 3800 0    50   ~ 0
+C3
+Text Label 9150 3900 0    50   ~ 0
+C4
+Text Label 9150 4000 0    50   ~ 0
+C5
+Text Label 9150 4100 0    50   ~ 0
+C6
+Wire Wire Line
+	8950 4100 9150 4100
+Wire Wire Line
+	8950 4000 9150 4000
+Wire Wire Line
+	9150 3900 8950 3900
+Wire Wire Line
+	8950 3800 9150 3800
+Wire Wire Line
+	9150 3700 8950 3700
+Wire Wire Line
+	8950 3600 9150 3600
+$Comp
+L Device:D_Schottky D?
+U 1 1 6222295F
+P 9450 4900
+F 0 "D?" V 9404 4980 50  0000 L CNN
+F 1 "D_Schottky" V 9495 4980 50  0000 L CNN
+F 2 "" H 9450 4900 50  0001 C CNN
+F 3 "~" H 9450 4900 50  0001 C CNN
+	1    9450 4900
+	0    1    1    0   
+$EndComp
+Text Label 9650 5500 0    50   ~ 0
+C6
+$Comp
+L Device:R R?
+U 1 1 622462AA
+P 9450 5200
+F 0 "R?" H 9520 5246 50  0000 L CNN
+F 1 "R" H 9520 5155 50  0000 L CNN
+F 2 "" V 9380 5200 50  0001 C CNN
+F 3 "~" H 9450 5200 50  0001 C CNN
+	1    9450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62253C9B
+P 9800 4550
+F 0 "C?" H 9915 4596 50  0000 L CNN
+F 1 "100n" H 9915 4505 50  0000 L CNN
+F 2 "" H 9838 4400 50  0001 C CNN
+F 3 "~" H 9800 4550 50  0001 C CNN
+	1    9800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4400 8950 4400
+Wire Wire Line
+	8950 4500 9450 4500
+Wire Wire Line
+	9450 4500 9450 4700
+Wire Wire Line
+	9800 4700 9450 4700
+Connection ~ 9450 4700
+Wire Wire Line
+	9450 4700 9450 4750
+Wire Wire Line
+	9450 5350 9450 5500
+Wire Wire Line
+	9450 5500 9650 5500
+$Comp
+L Device:R R?
+U 1 1 6234DCCE
+P 10050 3300
+AR Path="/61619F34/6161AC01/6234DCCE" Ref="R?"  Part="1" 
+AR Path="/61619F34/61F7AB68/6234DCCE" Ref="R?"  Part="1" 
+AR Path="/61619F34/62061D33/6234DCCE" Ref="R?"  Part="1" 
+AR Path="/61619F34/6209AB17/6234DCCE" Ref="R?"  Part="1" 
+F 0 "R?" H 10120 3346 50  0000 L CNN
+F 1 "1M" H 10120 3255 50  0000 L CNN
+F 2 "" V 9980 3300 50  0001 C CNN
+F 3 "~" H 10050 3300 50  0001 C CNN
+	1    10050 3300
+	1    0    0    -1  
+$EndComp
+Text Label 10050 3000 0    50   ~ 0
+VREG
+Wire Wire Line
+	10050 3000 10050 3150
+Wire Wire Line
+	10050 3450 10050 3500
+Wire Wire Line
+	10050 3500 8950 3500
+Text HLabel 10300 3500 2    50   Input ~ 0
+WDT
+Wire Wire Line
+	10300 3500 10050 3500
+Connection ~ 10050 3500
 $EndSCHEMATC
