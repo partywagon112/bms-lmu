@@ -327,10 +327,6 @@ Text HLabel 7400 4300 2    50   Input ~ 0
 SPI1_MISO
 Text HLabel 7400 4400 2    50   Input ~ 0
 SPI1_MOSI
-Text Label 4800 4700 0    50   ~ 0
-TEMPERATURE_CS
-Wire Wire Line
-	4800 4700 5600 4700
 Wire Wire Line
 	1250 2050 1350 2050
 $Comp
