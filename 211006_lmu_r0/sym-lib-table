@@ -16,4 +16,5 @@
   (lib (name ISO1042DWVR)(type Legacy)(uri "G:/.shortcut-targets-by-id/1c2REj49ieOyJLgWQscrUBeO6W_FA5OlY/FYRP Sem 2 2021/Design/libraries/ISO1042DWVR/ISO1042DWVR.lib")(options "")(descr ""))
   (lib (name gnd_hv)(type Legacy)(uri "G:/.shortcut-targets-by-id/1c2REj49ieOyJLgWQscrUBeO6W_FA5OlY/FYRP Sem 2 2021/Design/libraries/power_symbols/gnd_hv.lib")(options "")(descr ""))
   (lib (name czt5551)(type Legacy)(uri "G:/.shortcut-targets-by-id/1c2REj49ieOyJLgWQscrUBeO6W_FA5OlY/FYRP Sem 2 2021/Design/libraries/CZT5551/czt5551.lib")(options "")(descr ""))
+  (lib (name SBR10U200P5-13)(type Legacy)(uri "G:/.shortcut-targets-by-id/1c2REj49ieOyJLgWQscrUBeO6W_FA5OlY/FYRP Sem 2 2021/Design/libraries/SBR10U200P5-13/SBR10U200P5-13.lib")(options "")(descr ""))
 )
