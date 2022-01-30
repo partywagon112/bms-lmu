@@ -21,6 +21,10 @@ F 0 "Q38" H 6241 4246 50  0000 L CNN
 F 1 "BC817" H 6241 4155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 4125 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 6050 4200 50  0001 L CNN
+F 4 "Nexperia" H 6050 4200 50  0001 C CNN "Manufacturer"
+F 5 "771-BC817-40-T/R" H 6050 4200 50  0001 C CNN "Mouser Part Number"
+F 6 "https://au.mouser.com/ProductDetail/Nexperia/BC817-40215?qs=sGAEpiMZZMt46bMQRT2SLrMI6Lc%252BSQ0xVQ67Chgc3gU%3D" H 6050 4200 50  0001 C CNN "Mouser URL"
+F 7 "BC817" H 6050 4200 50  0001 C CNN "Part Number"
 	1    6050 4200
 	-1   0    0    -1  
 $EndComp
@@ -29,7 +33,7 @@ L Device:R R204
 U 1 1 61644D16
 P 6600 4200
 F 0 "R204" V 6393 4200 50  0000 C CNN
-F 1 "10k" V 6484 4200 50  0000 C CNN
+F 1 "10kR" V 6484 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6530 4200 50  0001 C CNN
 F 3 "~" H 6600 4200 50  0001 C CNN
 	1    6600 4200
@@ -51,6 +55,10 @@ F 0 "K1" H 4920 3246 50  0000 R CNN
 F 1 "G5V-2" H 4920 3155 50  0000 R CNN
 F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 6200 3150 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 5550 3200 50  0001 C CNN
+F 4 "Omron" H 5550 3200 50  0001 C CNN "Manufacturer"
+F 5 "653-G5V-2-H1-DC12" H 5550 3200 50  0001 C CNN "Mouser Part Number"
+F 6 "https://au.mouser.com/ProductDetail/Omron-Electronics/G5V-2-H1-DC12?qs=SXIVkn%252Bm38kUovfCr9o1Dw%3D%3D" H 5550 3200 50  0001 C CNN "Mouser URL"
+F 7 "G5V-2-H1-DC12" H 5550 3200 50  0001 C CNN "Part Number"
 	1    5550 3200
 	-1   0    0    -1  
 $EndComp
@@ -77,7 +85,7 @@ U 1 1 6164B7F9
 P 4650 2500
 F 0 "J10" H 4568 2175 50  0000 C CNN
 F 1 "Conn_01x02" H 4568 2266 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4650 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 2500 50  0001 C CNN
 F 3 "~" H 4650 2500 50  0001 C CNN
 	1    4650 2500
 	-1   0    0    1   
@@ -127,7 +135,7 @@ L Device:R R205
 U 1 1 6164548A
 P 6850 4400
 F 0 "R205" H 6780 4354 50  0000 R CNN
-F 1 "50k" H 6780 4445 50  0000 R CNN
+F 1 "50kR" H 6780 4445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6780 4400 50  0001 C CNN
 F 3 "~" H 6850 4400 50  0001 C CNN
 	1    6850 4400
@@ -173,7 +181,7 @@ L Device:R R203
 U 1 1 61677209
 P 6600 3700
 F 0 "R203" V 6393 3700 50  0000 C CNN
-F 1 "50k" V 6484 3700 50  0000 C CNN
+F 1 "50kR" V 6484 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6530 3700 50  0001 C CNN
 F 3 "~" H 6600 3700 50  0001 C CNN
 	1    6600 3700
@@ -223,7 +231,7 @@ U 1 1 61F4C910
 P 4000 2500
 F 0 "J8" H 3918 2175 50  0000 C CNN
 F 1 "Conn_01x02" H 3918 2266 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4000 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4000 2500 50  0001 C CNN
 F 3 "~" H 4000 2500 50  0001 C CNN
 	1    4000 2500
 	-1   0    0    1   
@@ -234,7 +242,7 @@ U 1 1 61F4CE6C
 P 4000 3200
 F 0 "J9" H 3918 2875 50  0000 C CNN
 F 1 "Conn_01x02" H 3918 2966 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4000 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4000 3200 50  0001 C CNN
 F 3 "~" H 4000 3200 50  0001 C CNN
 	1    4000 3200
 	-1   0    0    1   

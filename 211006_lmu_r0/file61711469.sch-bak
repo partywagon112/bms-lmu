@@ -23,10 +23,13 @@ F 2 "QFN50P300X300X80-17N-D" H 7450 4250 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ads7038-q1.pdf?ts=1609502413909&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DADS7038QRTERQ1%2526keyMatch%253DADS7038QRTERQ1%2526tisearch%253DSearch-EN-everything%2526usec" H 7450 4150 50  0001 L CNN
 F 4 "ADS7038 Q1 Small 8 Channel 12 Bit ADC With SPI Interface and CRC" H 7450 4050 50  0001 L CNN "Description"
 F 5 "0.8" H 7450 3950 50  0001 L CNN "Height"
-F 6 "595-ADS7038QRTERQ1" H 7450 3850 50  0001 L CNN "Mouser Part Number"
+F 6 "NOT AVAILABLE!" H 7450 3850 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS7038QRTERQ1?qs=81r%252BiQLm7BTk46c4kXEtDw%3D%3D" H 7450 3750 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 7450 3650 50  0001 L CNN "Manufacturer_Name"
-F 9 "ADS7038QRTERQ1" H 7450 3550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7450 3650 50  0001 L CNN "Manufacturer_Name"
+F 9 "" H 7450 3550 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "Texas Instruments" H 6200 3550 50  0001 C CNN "Manufacturer"
+F 11 "ADS7038QRTERQ1" H 6200 3550 50  0001 C CNN "Part Number"
+F 12 "NOT AVAILABLE!" H 6200 3550 50  0001 C CNN "Mouser URL"
 	1    6200 3550
 	1    0    0    -1  
 $EndComp
@@ -207,7 +210,7 @@ L Device:C C14
 U 1 1 616D6F8A
 P 8150 3600
 F 0 "C14" H 8265 3646 50  0000 L CNN
-F 1 "1u" H 8265 3555 50  0000 L CNN
+F 1 "1uF" H 8265 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8188 3450 50  0001 C CNN
 F 3 "~" H 8150 3600 50  0001 C CNN
 	1    8150 3600
@@ -237,7 +240,7 @@ L Device:C C15
 U 1 1 61F706A2
 P 8450 3600
 F 0 "C15" H 8565 3646 50  0000 L CNN
-F 1 "1u" H 8565 3555 50  0000 L CNN
+F 1 "1uF" H 8565 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8488 3450 50  0001 C CNN
 F 3 "~" H 8450 3600 50  0001 C CNN
 	1    8450 3600
@@ -248,7 +251,7 @@ L Device:C C16
 U 1 1 61F708BB
 P 8750 3600
 F 0 "C16" H 8865 3646 50  0000 L CNN
-F 1 "1u" H 8865 3555 50  0000 L CNN
+F 1 "1uF" H 8865 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8788 3450 50  0001 C CNN
 F 3 "~" H 8750 3600 50  0001 C CNN
 	1    8750 3600
