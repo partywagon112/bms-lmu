@@ -5,6 +5,58 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "+3v3_iso:+3V3_ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_ISO" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_ISO_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_ISO_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_ARM_JTAG_SWD_10" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -2.54 16.51 0)
         (effects (font (size 1.27 1.27)) (justify right))
@@ -362,23 +414,29 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at -3.81 0.635 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Device_Ferrite_Bead" (id 1) (at 3.81 0 90)
+      (property "Value" "FerriteBead" (id 1) (at 3.81 0 90)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_0_1"
+      (property "ki_description" "Ferrite bead" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -407,7 +465,7 @@
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_1_1"
+      (symbol "FerriteBead_1_1"
         (pin passive line (at 0 3.81 270) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -862,6 +920,46 @@
         (pin passive line (at 5.08 0 180) (length 2.54)
           (name "B" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "gnd_iso:GND_ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_ISO" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_ISO_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_ISO_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1411,7 +1509,7 @@
     (pin "9" (uuid 8340aee0-0b1e-43c7-8742-2b65859d6564))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead") (at 179.07 60.96 270) (unit 1)
+  (symbol (lib_id "Device:FerriteBead") (at 179.07 60.96 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000615d9e48)
     (property "Reference" "FB1" (id 0) (at 180.34 64.77 90))
@@ -1762,6 +1860,7 @@
     (property "Datasheet" "" (id 3) (at 162.56 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 15dc3f39-28ac-4660-910a-7dd7c114fb00))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 74.93 144.78 0) (unit 1)
@@ -1777,6 +1876,7 @@
     (property "Datasheet" "" (id 3) (at 74.93 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid ed6c4be6-6b10-4417-977d-efb230dd2506))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 66.04 144.78 0) (unit 1)
@@ -1792,6 +1892,7 @@
     (property "Datasheet" "" (id 3) (at 66.04 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f760efa0-4b68-4a87-b996-fb926ebabcf5))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 55.88 144.78 0) (unit 1)
@@ -1807,6 +1908,7 @@
     (property "Datasheet" "" (id 3) (at 55.88 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 8a734680-7c1f-4450-993e-ee2a46e0dab8))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 45.72 144.78 0) (unit 1)
@@ -1822,6 +1924,7 @@
     (property "Datasheet" "" (id 3) (at 45.72 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f47c8c31-5380-4501-a14b-03f5dfb9bd5a))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 120.65 77.47 0) (unit 1)
@@ -1837,6 +1940,7 @@
     (property "Datasheet" "" (id 3) (at 120.65 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0acfee1e-30eb-4b73-bd92-b36c4be506a9))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 107.95 77.47 0) (unit 1)
@@ -1852,6 +1956,7 @@
     (property "Datasheet" "" (id 3) (at 107.95 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid f39d82c3-1cf1-4876-bacd-78064d9e02c1))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 85.09 76.2 0) (unit 1)
@@ -1867,6 +1972,7 @@
     (property "Datasheet" "" (id 3) (at 85.09 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 036cc461-cf21-4e0e-8dc1-879886058a30))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 95.25 81.28 0) (unit 1)
@@ -1882,6 +1988,7 @@
     (property "Datasheet" "" (id 3) (at 95.25 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 52466fb4-992b-4dd7-aebb-e2560333a4d9))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 191.77 64.77 0) (unit 1)
@@ -1897,6 +2004,7 @@
     (property "Datasheet" "" (id 3) (at 191.77 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 12d2716f-a6f8-489f-a739-dec6399b4389))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 200.66 64.77 0) (unit 1)
@@ -1912,6 +2020,7 @@
     (property "Datasheet" "" (id 3) (at 200.66 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 77239225-8ca6-4402-8d62-55e37a733332))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 209.55 64.77 0) (unit 1)
@@ -1927,6 +2036,7 @@
     (property "Datasheet" "" (id 3) (at 209.55 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid e4e12ff9-04c4-432b-8da7-d6d19f9787e8))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 218.44 64.77 0) (unit 1)
@@ -1942,6 +2052,7 @@
     (property "Datasheet" "" (id 3) (at 218.44 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 71e3fa48-63a9-4991-ae2b-095f9b8338cf))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 34.29 52.07 0) (unit 1)
@@ -1957,6 +2068,7 @@
     (property "Datasheet" "" (id 3) (at 34.29 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 4cb3773c-41c6-464e-a6b8-d5480623c5ac))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 71.12 30.48 0) (unit 1)
@@ -1972,6 +2084,7 @@
     (property "Datasheet" "" (id 3) (at 71.12 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 818bf4cf-06c4-4cda-9d78-635ef65e33d8))
   )
 
   (symbol (lib_id "+3v3_iso:+3V3_ISO") (at 218.44 57.15 0) (unit 1)
@@ -1987,6 +2100,7 @@
     (property "Datasheet" "" (id 3) (at 218.44 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 754882b0-f5c0-408d-a38c-edf17dc638c4))
   )
 
   (symbol (lib_id "+3v3_iso:+3V3_ISO") (at 85.09 58.42 0) (unit 1)
@@ -2002,6 +2116,7 @@
     (property "Datasheet" "" (id 3) (at 85.09 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 83e44ed1-a22b-4818-9177-bda4342923b0))
   )
 
   (symbol (lib_id "+3v3_iso:+3V3_ISO") (at 34.29 21.59 0) (unit 1)
@@ -2017,6 +2132,7 @@
     (property "Datasheet" "" (id 3) (at 34.29 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 8333bcf3-084f-4c3e-bf4f-38c003a55b99))
   )
 
   (symbol (lib_id "Device:C") (at 200.66 60.96 0) (unit 1)
@@ -2289,5 +2405,6 @@
     (property "Datasheet" "" (id 3) (at 46.99 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 4944db86-e0ce-4b6a-9f2b-ccce907720a6))
   )
 )

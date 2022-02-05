@@ -5,6 +5,58 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "+3v3_iso:+3V3_ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_ISO" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_ISO_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_ISO_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -436,6 +488,46 @@
         )
       )
     )
+    (symbol "gnd_iso:GND_ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_ISO" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_ISO_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_ISO_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 111.76 95.25) (diameter 0) (color 0 0 0 0)
@@ -744,6 +836,7 @@
     (property "Datasheet" "" (id 3) (at 138.43 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid def134bf-4907-4c41-98f1-acf0f88e6e99))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 151.13 118.11 0) (unit 1)
@@ -759,6 +852,7 @@
     (property "Datasheet" "" (id 3) (at 151.13 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 00899dfd-7ebf-4478-824c-af1e62e55e87))
   )
 
   (symbol (lib_id "gnd_iso:GND_ISO") (at 173.99 118.11 0) (unit 1)
@@ -774,6 +868,7 @@
     (property "Datasheet" "" (id 3) (at 173.99 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0a65313b-9917-4d9a-ba24-aed876872343))
   )
 
   (symbol (lib_id "Device:R") (at 167.64 93.98 270) (unit 1)
@@ -804,6 +899,7 @@
     (property "Datasheet" "" (id 3) (at 148.59 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 5710a8eb-7f18-4b4c-aa38-7096515c2673))
   )
 
   (symbol (lib_id "+3v3_iso:+3V3_ISO") (at 151.13 71.12 0) (unit 1)
@@ -819,6 +915,7 @@
     (property "Datasheet" "" (id 3) (at 151.13 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0f88dddc-2be4-444b-985a-2451cfe3bce1))
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 101.6 63.5 180) (unit 1)
