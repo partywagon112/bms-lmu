@@ -1124,6 +1124,12 @@
     (property "Datasheet" "~" (id 3) (at 267.97 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Part Number" "-" (id 4) (at 267.97 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "-" (id 5) (at 267.97 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9f4d6f4f-3c76-4754-b6c6-94844c587cc6))
     (pin "10" (uuid b17914e1-eda0-4880-b041-864fc79c9af5))
     (pin "11" (uuid 40b02dab-8ec2-4f89-8d5e-8705c01ec6cb))
@@ -1150,6 +1156,12 @@
     (property "Datasheet" "~" (id 3) (at 45.72 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Molex" (id 4) (at 45.72 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "462071006" (id 5) (at 45.72 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8b799504-e492-4a3c-ad40-3821398e2b03))
     (pin "2" (uuid 614b561d-9cf6-481b-b847-f7562b425f62))
     (pin "3" (uuid 6303c92b-8daf-400d-97df-670d14af4a34))
@@ -1169,6 +1181,12 @@
     (property "Datasheet" "~" (id 3) (at 45.72 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Molex" (id 4) (at 45.72 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "462071006" (id 5) (at 45.72 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 991ff4ba-94ee-49ae-bf88-39031786bc52))
     (pin "2" (uuid ab91b802-b11a-4a05-986e-4adaa565e614))
     (pin "3" (uuid 415e16b8-6b2d-45a0-8768-17340423ff22))
@@ -1186,6 +1204,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 267.97 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "-" (id 4) (at 267.97 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "" (id 5) (at 267.97 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 54da0673-7d45-4485-ab5a-e0a5bb64389a))
@@ -2071,8 +2095,8 @@
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-000061687cd1"
       (reference "#PWR086") (unit 1) (value "GND_ISO") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-000061688149"
-      (reference "#PWR087") (unit 1) (value "GND_ISO") (footprint "")
+    (path "/00000000-0000-0000-0000-0000615d6dd3/1b82c90c-8eb2-4d7e-90bd-08ff4ac0d81b"
+      (reference "#PWR087") (unit 1) (value "+3V3_ISO") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-000061687b4c"
       (reference "#PWR088") (unit 1) (value "GND_ISO") (footprint "")
@@ -2097,6 +2121,15 @@
     )
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-00006168e993"
       (reference "#PWR095") (unit 1) (value "GND_ISO") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000615d6dd3/6924b9c0-bd5f-481d-9f8d-7fc20978c5ab"
+      (reference "#PWR096") (unit 1) (value "GND_ISO") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000615d6dd3/3fda080e-f768-4619-ba3c-beddd1d2b960"
+      (reference "#PWR097") (unit 1) (value "+3V3_ISO") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000615d6dd3/e3b914a8-68f7-4ef2-b944-05204da163e8"
+      (reference "#PWR098") (unit 1) (value "GND_ISO") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000615d6d63/00000000-0000-0000-0000-00006165b450"
       (reference "C1") (unit 1) (value "220uF") (footprint "Capacitor_SMD:CP_Elec_10x12.5")
@@ -2871,6 +2904,9 @@
     )
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-0000616163db"
       (reference "J12") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000615d6dd3/b3ac3a03-f013-4d1d-b3c1-6416cab3ed78"
+      (reference "J13") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061643001/00000000-0000-0000-0000-000061647a5a"
       (reference "K1") (unit 1) (value "G5V-2") (footprint "Relay_THT:Relay_DPDT_Omron_G5V-2")
@@ -3740,10 +3776,7 @@
       (reference "R247") (unit 1) (value "50kR") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-0000615e56df"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP")
-    )
-    (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-0000615e825f"
-      (reference "SW2") (unit 1) (value "SW_SPST") (footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
     )
     (path "/00000000-0000-0000-0000-000061619f34/00000000-0000-0000-0000-00006161ac01/00000000-0000-0000-0000-00006234dcc2/00000000-0000-0000-0000-00006234dcaa"
       (reference "T1") (unit 1) (value "750312504") (footprint "EP13_SMT_H_8PIN_(750312504)")
