@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name "750312504")(type "KiCad")(uri "C:/Users/darge/Documents/GitHub/bms-lmu/libraries/750312504")(options "")(descr ""))
+  (lib (name "750312504")(type "KiCad")(uri "${KIPRJMOD}/../libraries/750312504")(options "")(descr ""))
   (lib (name "bss308pe_2")(type "KiCad")(uri "${KIPRJMOD}/../libraries/BSS308PE")(options "")(descr ""))
   (lib (name "czt5551")(type "KiCad")(uri "${KIPRJMOD}/../libraries/CZT5551")(options "")(descr ""))
   (lib (name "ISO1042DWVR")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ISO1042DWVR")(options "")(descr ""))
