@@ -1708,7 +1708,7 @@
     (uuid 00000000-0000-0000-0000-00006166bb69)
     (property "Reference" "F1" (id 0) (at 57.15 53.975 90))
     (property "Value" "Polyfuse 1A" (id 1) (at 57.15 56.2864 90))
-    (property "Footprint" "Fuse:Fuse_2920_7451Metric_Castellated" (id 2) (at 62.23 58.42 0)
+    (property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" (id 2) (at 62.23 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (id 3) (at 57.15 59.69 0)
