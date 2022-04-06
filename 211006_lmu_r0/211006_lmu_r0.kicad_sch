@@ -284,11 +284,11 @@
         )
       )
     )
-    (symbol "gnd_iso:GND_ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "GND_HV_12" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND_ISO" (id 1) (at 0 -3.81 0)
+      (property "Value" "GND_HV_12" (id 1) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
@@ -303,7 +303,7 @@
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_ISO_0_1"
+      (symbol "GND_HV_12_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -317,9 +317,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_ISO_1_1"
+      (symbol "GND_HV_12_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND_ISO" (effects (font (size 1.27 1.27))))
+          (name "GND_HV" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1149,22 +1149,6 @@
     (uuid eaa31b67-1027-4315-8ddc-54fc7a3f45d8)
   )
 
-  (symbol (lib_id "gnd_iso:GND_ISO") (at 233.68 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061694729)
-    (property "Reference" "#PWR01" (id 0) (at 233.68 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_ISO" (id 1) (at 233.807 25.9842 0))
-    (property "Footprint" "" (id 2) (at 233.68 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 233.68 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b597f244-9bef-4497-aa87-720760d336d2))
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 45.72 30.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000616f9826)
@@ -1286,6 +1270,22 @@
     )
     (pin "1" (uuid 31235b8c-a870-479a-95f7-d63eaa0f57e5))
     (pin "2" (uuid 34c09d16-0488-4b8a-8c0f-b699ca873270))
+  )
+
+  (symbol (lib_name "GND_HV_12") (lib_id "gnd_hv:GND_HV") (at 233.68 21.59 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 528bc8a8-b258-4259-b2bb-b454adde3a4a)
+    (property "Reference" "#PWR0121" (id 0) (at 233.68 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_HV" (id 1) (at 233.807 25.9842 0))
+    (property "Footprint" "" (id 2) (at 233.68 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 233.68 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6adee9fe-bc4f-4d39-b623-74859d607fbc))
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 269.24 115.57 0) (unit 1)
@@ -2110,9 +2110,6 @@
   )
 
   (symbol_instances
-    (path "/00000000-0000-0000-0000-000061694729"
-      (reference "#PWR01") (unit 1) (value "GND_ISO") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000615d6d63/00000000-0000-0000-0000-000061665f18"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
@@ -2337,6 +2334,9 @@
     )
     (path "/00000000-0000-0000-0000-00006171146a/00000000-0000-0000-0000-0000616c8099/7eb55ddd-f34a-4c68-977c-0975f8d51fb7"
       (reference "#PWR0120") (unit 1) (value "GND_HV") (footprint "")
+    )
+    (path "/528bc8a8-b258-4259-b2bb-b454adde3a4a"
+      (reference "#PWR0121") (unit 1) (value "GND_HV") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006171146a/00000000-0000-0000-0000-0000616cf5c8/f39239ac-c5ca-45ed-acd9-be3ff97551b4"
       (reference "#PWR0122") (unit 1) (value "+5V_HV") (footprint "")
