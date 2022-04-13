@@ -1,17 +1,177 @@
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 278:Plugin executed on: 'win32'
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 279:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 280:KiCad build version: (6.0.1)
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 281:Plugin version: 1.1.0
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 282:Frame repr: <wx._core.Frame object at 0x0000019F92A899D0>
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:Preparing replicator with J24 as a reference
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:source anchor footprint is 'J24'
-Located on: []
-With filenames: []
-With sheet_id:[]
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 336:Corresponding footprints are 
-[('J24', [])]
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 348:Showing dialog
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Toolbar position: wx.Point(2304, 117)
-03-31 00:48:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Dialog position: wx.Point(1940, 117)
-03-31 00:48:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:User canceled the dialog
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 278:Plugin executed on: 'win32'
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 279:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 280:KiCad build version: (6.0.1)
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 281:Plugin version: 1.1.0
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 282:Frame repr: <wx._core.Frame object at 0x0000018C8BB1F820>
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:Preparing replicator with T1 as a reference
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:source anchor footprint is 'T1'
+Located on: ['Balance Interface V3', 'Upper Active Balance Group', 'Active_Passive_Balance_Filter']
+With filenames: ['file61619F33.kicad_sch', 'file6196A5FB.kicad_sch', 'active_passive_balance.kicad_sch']
+With sheet_id:['Balance Interface V3', 'Upper Active Balance Group', 'Active_Passive_Balance_Filter']
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 336:Corresponding footprints are 
+[('T7', ['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter']), ('T4', ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028']), ('T5', ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3']), ('T10', ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028']), ('T9', ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027']), ('T3', ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027']), ('T8', ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49']), ('T1', ['Balance Interface V3', 'Upper Active Balance Group', 'Active_Passive_Balance_Filter']), ('T6', ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']), ('T11', ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3']), ('T12', ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4']), ('T2', ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49'])]
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 348:Showing dialog
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Toolbar position: wx.Point(1664, 117)
+04-12 19:27:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Dialog position: wx.Point(1300, 117)
+04-12 19:27:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Active_Passive_Balance_Filter', file:'active_passive_balance.kicad_sch'
+04-12 19:27:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']]
+04-12 19:27:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Active_Passive_Balance_Filter', file:'active_passive_balance.kicad_sch'
+04-12 19:27:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']]
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Active_Passive_Balance_Filter', file:'active_passive_balance.kicad_sch'
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']]
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 128:Replicating layout
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3'], ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']]
+on level: ['Balance Interface V3', 'Upper Active Balance Group', 'Active_Passive_Balance_Filter']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False, by_group=False
+04-12 19:28:22 root 218:updating GUI message: 'Preparing for replication'
+04-12 19:28:22 root 223:updating GUI with: 0
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source zones
+04-12 19:28:22 root 223:updating GUI with: 62
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 260:Getting source text items
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 269:Getting source drawing items
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 177:Removing tracks and zones, before footprint placement
+04-12 19:28:22 root 218:updating GUI message: 'Removing zones and tracks'
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-40692500, bottom:-14425000, Left:305775000, Right:338145000
+04-12 19:28:22 root 223:updating GUI with: 9
+04-12 19:28:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-40692500, bottom:-14425000, Left:345375000, Right:377745000
+04-12 19:28:23 root 223:updating GUI with: 18
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-40992500, bottom:-14725000, Left:385675000, Right:418045000
+04-12 19:28:23 root 223:updating GUI with: 27
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:14776700, bottom:41044200, Left:304373300, Right:336743300
+04-12 19:28:23 root 223:updating GUI with: 36
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:14941100, bottom:41208600, Left:344685800, Right:377055800
+04-12 19:28:23 root 223:updating GUI with: 45
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:14166100, bottom:40433600, Left:384473300, Right:416843300
+04-12 19:28:23 root 223:updating GUI with: 54
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-46292500, bottom:-20025000, Left:57475000, Right:89845000
+04-12 19:28:23 root 223:updating GUI with: 63
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-45992500, bottom:-19725000, Left:104275000, Right:136645000
+04-12 19:28:23 root 223:updating GUI with: 72
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-45981900, bottom:-19714400, Left:148619600, Right:180989600
+04-12 19:28:23 root 223:updating GUI with: 81
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-46192500, bottom:-19925000, Left:194625000, Right:226995000
+04-12 19:28:23 root 223:updating GUI with: 90
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-46192500, bottom:-19925000, Left:237175000, Right:269545000
+04-12 19:28:23 root 218:updating GUI message: 'Replicating footprints'
+04-12 19:28:23 root 223:updating GUI with: 0
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 663:Replicating footprints
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter']
+04-12 19:28:23 root 223:updating GUI with: 0
+04-12 19:28:23 root 223:updating GUI with: 7
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49']
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027']
+04-12 19:28:23 root 223:updating GUI with: 20
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028']
+04-12 19:28:23 root 223:updating GUI with: 27
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:23 root 223:updating GUI with: 42
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49']
+04-12 19:28:23 root 223:updating GUI with: 56
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027']
+04-12 19:28:23 root 223:updating GUI with: 70
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028']
+04-12 19:28:23 root 223:updating GUI with: 77
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:23 root 223:updating GUI with: 84
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:23 root 223:updating GUI with: 99
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 185:Removing tracks and zones, after footprint placement
+04-12 19:28:23 root 218:updating GUI message: 'Removing zones and tracks'
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-40692500, bottom:-14425000, Left:305775000, Right:338145000
+04-12 19:28:23 root 223:updating GUI with: 9
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-40692500, bottom:-14425000, Left:345375000, Right:377745000
+04-12 19:28:23 root 223:updating GUI with: 18
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-40992500, bottom:-14725000, Left:385675000, Right:418045000
+04-12 19:28:23 root 223:updating GUI with: 27
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:14776700, bottom:41044200, Left:304373300, Right:336743300
+04-12 19:28:23 root 223:updating GUI with: 36
+04-12 19:28:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:14941100, bottom:41208600, Left:344685800, Right:377055800
+04-12 19:28:24 root 223:updating GUI with: 45
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:14166100, bottom:40433600, Left:384473300, Right:416843300
+04-12 19:28:24 root 223:updating GUI with: 54
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-46292500, bottom:-20025000, Left:57475000, Right:89845000
+04-12 19:28:24 root 223:updating GUI with: 63
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-45992500, bottom:-19725000, Left:104275000, Right:136645000
+04-12 19:28:24 root 223:updating GUI with: 72
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-45981900, bottom:-19714400, Left:148619600, Right:180989600
+04-12 19:28:24 root 223:updating GUI with: 81
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-46192500, bottom:-19925000, Left:194625000, Right:226995000
+04-12 19:28:24 root 223:updating GUI with: 90
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1046:Remove bounding box top:-46192500, bottom:-19925000, Left:237175000, Right:269545000
+04-12 19:28:24 root 218:updating GUI message: 'Replicating tracks'
+04-12 19:28:24 root 223:updating GUI with: 0
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 829:Replicating tracks
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter']
+04-12 19:28:24 root 223:updating GUI with: 0
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 root 223:updating GUI with: 10
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 root 223:updating GUI with: 29
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 root 223:updating GUI with: 36
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 root 223:updating GUI with: 57
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 root 223:updating GUI with: 63
+04-12 19:28:24 root 223:updating GUI with: 68
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 root 223:updating GUI with: 79
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 root 223:updating GUI with: 90
+04-12 19:28:24 root 218:updating GUI message: 'Replicating zones'
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 887:Replicating zones
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter']
+04-12 19:28:24 root 223:updating GUI with: 4
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 root 223:updating GUI with: 20
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 root 223:updating GUI with: 38
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 root 223:updating GUI with: 59
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 root 223:updating GUI with: 84
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 root 218:updating GUI message: 'Replicating text'
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 957:Replicating text
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 root 223:updating GUI with: 90
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 root 218:updating GUI message: 'Replicating drawings'
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 997:Replicating drawings
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'Active_Passive_Balance_Filter']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Lower Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196DB49']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F027']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F028']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A3']
+04-12 19:28:24 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Balance Interface V3', 'Upper Active Balance Group', 'sheet6196F9A4']
+04-12 19:28:24 root 218:updating GUI message: 'Removing duplicates'
+04-12 19:28:25 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 152:Replication complete
