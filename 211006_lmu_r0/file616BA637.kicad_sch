@@ -1032,6 +1032,15 @@
     (uuid eba7a767-7367-4797-af4a-a85788f7bc1a)
   )
 
+  (label "CAN_PRE_P" (at 130.81 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 235aea80-9ed6-4d7e-8521-db46207aa6af)
+  )
+  (label "CAN_PRE_N" (at 130.81 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6fb72dcc-cca8-425f-8543-2aab17c3ab52)
+  )
+
   (hierarchical_label "CAN_L" (shape input) (at 50.8 102.87 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 07890818-3765-40fe-8d0e-26104e422ace)
