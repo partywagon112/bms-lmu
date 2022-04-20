@@ -1373,7 +1373,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 44.45 127 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 98658dae-a964-4b9c-a7f3-2277d461bf25)
-    (property "Reference" "J?" (id 0) (at 46.5328 118.745 0))
+    (property "Reference" "J8" (id 0) (at 46.5328 118.745 0))
     (property "Value" "Conn_01x02" (id 1) (at 46.5328 121.0564 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 44.45 127 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3074,6 +3074,9 @@
     (path "/00000000-0000-0000-0000-000061619f34/00000000-0000-0000-0000-000061735c3c"
       (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
+    (path "/98658dae-a964-4b9c-a7f3-2277d461bf25"
+      (reference "J8") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-000061643001/00000000-0000-0000-0000-000061f4ce6c"
       (reference "J9") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
@@ -3121,9 +3124,6 @@
     )
     (path "/83c808fd-7883-457a-927d-5eaf1f30c52d"
       (reference "J25") (unit 1) (value "Conn_01x02") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical")
-    )
-    (path "/98658dae-a964-4b9c-a7f3-2277d461bf25"
-      (reference "J?") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061643001/00000000-0000-0000-0000-000061647a5a"
       (reference "K1") (unit 1) (value "G5V-2") (footprint "Relay_THT:Relay_DPDT_Omron_G5V-2")
