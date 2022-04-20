@@ -1067,7 +1067,7 @@
     (uuid 00000000-0000-0000-0000-00006164a289)
     (property "Reference" "U2" (id 0) (at 175.26 83.3882 0))
     (property "Value" "ISO1042DWVR" (id 1) (at 175.26 85.6996 0))
-    (property "Footprint" "SOIC127P1150X280-8N" (id 2) (at 167.64 105.41 0)
+    (property "Footprint" "ISO1042DWVR:SOIC127P1150X280-8N" (id 2) (at 167.64 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 175.26 93.98 0)
