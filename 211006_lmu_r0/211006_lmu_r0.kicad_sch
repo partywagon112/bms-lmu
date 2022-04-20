@@ -2159,12 +2159,6 @@
     (path "/00000000-0000-0000-0000-0000615d6d63/63483ed3-b3fc-4b0b-bfde-53b1a5f8c6b6"
       (reference "#PWR022") (unit 1) (value "GND_HV") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000615d6d63/386be940-ed6d-4f07-8cdd-2bf713c384d5"
-      (reference "#PWR023") (unit 1) (value "+3V3_ISO") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000615d6d63/a218f0f2-1a0d-48dd-a430-4836f0150ebb"
-      (reference "#PWR024") (unit 1) (value "GND_ISO") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006171146a/0832676e-bc69-4168-b275-92108ef226fd"
       (reference "#PWR025") (unit 1) (value "+5V_HV") (footprint "")
     )
@@ -2353,6 +2347,12 @@
     )
     (path "/00000000-0000-0000-0000-00006171146a/00000000-0000-0000-0000-0000616d0110/7eb55ddd-f34a-4c68-977c-0975f8d51fb7"
       (reference "#PWR0141") (unit 1) (value "GND_HV") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000615d6d63/0b389188-6a7f-42a2-afbd-68631cd23f92"
+      (reference "#PWR?") (unit 1) (value "+5V_HV") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000615d6d63/c901a9a6-89b1-4051-a019-4dc71d0c8573"
+      (reference "#PWR?") (unit 1) (value "GND_HV") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000615d6d63/00000000-0000-0000-0000-00006165b450"
       (reference "C1") (unit 1) (value "220uF") (footprint "Capacitor_SMD:CP_Elec_10x12.5")
