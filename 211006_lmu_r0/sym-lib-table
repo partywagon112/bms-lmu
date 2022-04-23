@@ -17,4 +17,5 @@
   (lib (name "gnd_hv")(type "KiCad")(uri "${KIPRJMOD}/../libraries/power_symbols/gnd_hv.kicad_sym")(options "")(descr ""))
   (lib (name "czt5551")(type "KiCad")(uri "${KIPRJMOD}/../libraries/CZT5551/czt5551.kicad_sym")(options "")(descr ""))
   (lib (name "SBR10U200P5-13")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SBR10U200P5-13/SBR10U200P5-13.kicad_sym")(options "")(descr ""))
+  (lib (name "BUK9K17-60E")(type "KiCad")(uri "G:/.shortcut-targets-by-id/1c2REj49ieOyJLgWQscrUBeO6W_FA5OlY/FYRP Sem 2 2021/Design/LMU/libraries/BUK9K17-60E/BUK9K17-60E.kicad_sym")(options "")(descr ""))
 )

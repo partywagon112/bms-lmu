@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 1.778,
+          "via_gap": 3.048,
+          "width": 0.254
         }
       ],
       "drc_exclusions": [],
@@ -123,7 +128,9 @@
         0.25,
         0.5,
         0.75,
-        1.0
+        1.0,
+        2.0,
+        3.0
       ],
       "via_dimensions": [
         {
@@ -358,9 +365,9 @@
       {
         "bus_width": 12.0,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 1.27,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.381,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -450,15 +457,15 @@
     ],
     [
       "00000000-0000-0000-0000-000061ea8c33",
-      "HV Isolation v2"
+      "Temperature Isolation"
     ],
     [
       "3fd95a5f-9f89-4136-a950-df7c5df968a4",
-      "HV Isolation v3"
+      "Lower Ground Isolation"
     ],
     [
       "249181bf-808c-488c-b23e-05f208276fe8",
-      "HV Isolation v4"
+      "Upper Ground Isolation"
     ],
     [
       "00000000-0000-0000-0000-00006171146a",
@@ -498,7 +505,7 @@
     ],
     [
       "00000000-0000-0000-0000-000061619f34",
-      "Balance Interface V3"
+      "Balance Interface"
     ],
     [
       "00000000-0000-0000-0000-000061ff949c",
@@ -514,27 +521,27 @@
     ],
     [
       "00000000-0000-0000-0000-00006234dcc2",
-      "Active_Passive_Balance_Filter"
+      "Balance Circuit 6"
     ],
     [
       "00000000-0000-0000-0000-00006196db56",
-      "sheet6196DB49"
+      "Balance Circuit 5"
     ],
     [
       "00000000-0000-0000-0000-00006196f035",
-      "sheet6196F027"
+      "Balance Circuit 4"
     ],
     [
       "00000000-0000-0000-0000-00006196f042",
-      "sheet6196F028"
+      "Balance Circuit 3"
     ],
     [
       "00000000-0000-0000-0000-00006196f9b1",
-      "sheet6196F9A3"
+      "Balance Circuit 2"
     ],
     [
       "00000000-0000-0000-0000-00006196f9be",
-      "sheet6196F9A4"
+      "Balance Circuit 1"
     ],
     [
       "00000000-0000-0000-0000-000061f88ca4",
@@ -542,27 +549,27 @@
     ],
     [
       "00000000-0000-0000-0000-00006234dcc2",
-      "Active_Passive_Balance_Filter"
+      "Balance Circuit 6"
     ],
     [
       "00000000-0000-0000-0000-00006196db56",
-      "sheet6196DB49"
+      "Balance Circuit 5"
     ],
     [
       "00000000-0000-0000-0000-00006196f035",
-      "sheet6196F027"
+      "Balance Circuit 4"
     ],
     [
       "00000000-0000-0000-0000-00006196f042",
-      "sheet6196F028"
+      "Balance Circuit 3"
     ],
     [
       "00000000-0000-0000-0000-00006196f9b1",
-      "sheet6196F9A3"
+      "Balance Circuit 2"
     ],
     [
       "00000000-0000-0000-0000-00006196f9be",
-      "sheet6196F9A4"
+      "Balance Circuit 1"
     ],
     [
       "beeca510-21b8-4b3a-a084-66708488f3ea",

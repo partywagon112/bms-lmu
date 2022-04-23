@@ -10,4 +10,5 @@
   (lib (name "R2S-0505")(type "KiCad")(uri "${KIPRJMOD}/../libraries/R2S-0505")(options "")(descr ""))
   (lib (name "SBR10U200P5-13")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SBR10U200P5-13")(options "")(descr ""))
   (lib (name "sir882dp")(type "KiCad")(uri "${KIPRJMOD}/../libraries/sir882dp")(options "")(descr ""))
+  (lib (name "BUK9K17-60E")(type "KiCad")(uri "G:/.shortcut-targets-by-id/1c2REj49ieOyJLgWQscrUBeO6W_FA5OlY/FYRP Sem 2 2021/Design/LMU/libraries/BUK9K17-60E")(options "")(descr ""))
 )
