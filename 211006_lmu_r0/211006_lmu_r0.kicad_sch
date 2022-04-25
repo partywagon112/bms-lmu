@@ -3070,7 +3070,7 @@
       (reference "J10") (unit 1) (value "LOWER_BANK") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_8-G-5,08_1x08_P5.08mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-00006160a822"
-      (reference "J11") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x09_P1.27mm_Vertical_SMD")
+      (reference "J11") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/00000000-0000-0000-0000-0000615d6dd3/00000000-0000-0000-0000-0000616163db"
       (reference "J12") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
