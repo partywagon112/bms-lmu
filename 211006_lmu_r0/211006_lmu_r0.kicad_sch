@@ -1911,7 +1911,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 249181bf-808c-488c-b23e-05f208276fe8)
-    (property "Sheet name" "Upper Ground Isolation" (id 0) (at 179.07 128.8284 0)
+    (property "Sheet name" "Lower Ground Isolation" (id 0) (at 179.07 128.8284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "file61EA8C32.kicad_sch" (id 1) (at 179.07 152.9846 0)
@@ -1979,7 +1979,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 3fd95a5f-9f89-4136-a950-df7c5df968a4)
-    (property "Sheet name" "Lower Ground Isolation" (id 0) (at 179.07 98.3484 0)
+    (property "Sheet name" "Upper Ground Iso" (id 0) (at 179.07 98.3484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "file61EA8C32.kicad_sch" (id 1) (at 179.07 122.5046 0)
@@ -2117,9 +2117,6 @@
     )
     (path "/00000000-0000-0000-0000-0000616ba638/00000000-0000-0000-0000-00006164e3cd"
       (reference "#PWR012") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000616ba638/00000000-0000-0000-0000-00006164f300"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000616ba638/00000000-0000-0000-0000-00006164cf50"
       (reference "#PWR014") (unit 1) (value "+3V3_ISO") (footprint "")
@@ -3146,9 +3143,6 @@
     )
     (path "/00000000-0000-0000-0000-0000616ba638/00000000-0000-0000-0000-000061f4b3fe"
       (reference "R4") (unit 1) (value "60R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000616ba638/00000000-0000-0000-0000-0000616603f3"
-      (reference "R5") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006171146a/00000000-0000-0000-0000-0000616c8099/00000000-0000-0000-0000-000061f70d2c"
       (reference "R6") (unit 1) (value "10kR") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
