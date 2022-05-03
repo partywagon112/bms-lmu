@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "001d320_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "001d330_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "211006_lmu_r0.kicad_prl",
