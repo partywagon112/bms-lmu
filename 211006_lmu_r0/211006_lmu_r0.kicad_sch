@@ -1660,7 +1660,7 @@
     (property "Value" "MountingHole" (id 1) (at 21.59 19.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 19.05 17.78 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (id 2) (at 19.05 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 19.05 17.78 0)
@@ -3308,7 +3308,7 @@
       (reference "FB1") (unit 1) (value "Ferrite Bead") (footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/d5b94147-2d28-4ef1-8a91-23841ebd65a8"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/3577d859-c3f1-46f6-ad76-cbdced753d22"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
