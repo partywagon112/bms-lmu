@@ -1,0 +1,63 @@
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 278:Plugin executed on: 'win32'
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 279:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 280:KiCad build version: (6.0.1)
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 281:Plugin version: 1.1.0
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 282:Frame repr: <wx._core.Frame object at 0x0000019E1A2C19D0>
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:Preparing replicator with U7 as a reference
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:source anchor footprint is 'U7'
+Located on: ['Lower Ground Isolation']
+With filenames: ['file61EA8C32.kicad_sch']
+With sheet_id:['Lower Ground Isolation']
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 336:Corresponding footprints are 
+[('U8', ['Upper Ground Isolation']), ('U7', ['Lower Ground Isolation']), ('U6', ['Temperature Isolation'])]
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 348:Showing dialog
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Toolbar position: wx.Point(1878, 96)
+04-25 18:53:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Dialog position: wx.Point(1514, 96)
+04-25 18:53:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Lower Ground Isolation', file:'file61EA8C32.kicad_sch'
+04-25 18:53:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Temperature Isolation'], ['Upper Ground Isolation']]
+04-25 18:53:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Lower Ground Isolation', file:'file61EA8C32.kicad_sch'
+04-25 18:53:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Temperature Isolation'], ['Upper Ground Isolation']]
+04-25 18:53:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Lower Ground Isolation', file:'file61EA8C32.kicad_sch'
+04-25 18:53:48 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Temperature Isolation'], ['Upper Ground Isolation']]
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:constructing a list of sheets suitable for replication on level:'Lower Ground Isolation', file:'file61EA8C32.kicad_sch'
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 366:suitable sheets are:[['Temperature Isolation'], ['Upper Ground Isolation']]
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 128:Replicating layout
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['Temperature Isolation'], ['Upper Ground Isolation']]
+on level: ['Lower Ground Isolation']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
+04-25 18:53:51 root 218:updating GUI message: 'Preparing for replication'
+04-25 18:53:51 root 223:updating GUI with: 0
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source zones
+04-25 18:53:51 root 223:updating GUI with: 62
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 260:Getting source text items
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 269:Getting source drawing items
+04-25 18:53:51 root 218:updating GUI message: 'Replicating footprints'
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 663:Replicating footprints
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Temperature Isolation']
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints on sheet ['Upper Ground Isolation']
+04-25 18:53:51 root 223:updating GUI with: 89
+04-25 18:53:51 root 218:updating GUI message: 'Replicating tracks'
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 829:Replicating tracks
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Temperature Isolation']
+04-25 18:53:51 root 223:updating GUI with: 1
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks on sheet ['Upper Ground Isolation']
+04-25 18:53:51 root 218:updating GUI message: 'Replicating zones'
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 887:Replicating zones
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Temperature Isolation']
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 894:Replicating zones on sheet ['Upper Ground Isolation']
+04-25 18:53:51 root 218:updating GUI message: 'Replicating text'
+04-25 18:53:51 root 223:updating GUI with: 0
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 957:Replicating text
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Temperature Isolation']
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating text on sheet ['Upper Ground Isolation']
+04-25 18:53:51 root 218:updating GUI message: 'Replicating drawings'
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 997:Replicating drawings
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Temperature Isolation']
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings on sheet ['Upper Ground Isolation']
+04-25 18:53:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 152:Replication complete
