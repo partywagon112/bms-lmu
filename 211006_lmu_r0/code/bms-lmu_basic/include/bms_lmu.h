@@ -2,6 +2,11 @@
 
 #define STACK_SIZE 12
 
+// SAFETY PARAMETERS!
+#define MAX_VOLTAGE 4.2
+#define MIN_VOLTAGE 2.8
+#define MAX_TEMPERATURE 60
+
 // State Machine Logic
 enum LMU_States {
   FAULT, 
@@ -9,7 +14,14 @@ enum LMU_States {
   MEASURING,
   PASSIVE_BALANCING, 
   ACTIVE_BALANCING
-};
+} lmu_state_t;
+
+typedef enum ERROR_CODES_SUB_KEY{
+    ERROR_OV_FAULT,
+    ERROR_UV_FAULT,
+    ERROR_OT_FAULT,
+    ERROR_RELAY_FAULT
+} error_state_t;
 
 class DigitalOut {
   private:
@@ -41,21 +53,46 @@ class DigitalOut {
     }
 };
 
+class DigitalIn {
+    private:
+        uint32_t _pin_number;
+
+    public:
+        DigitalIn(uint32_t pin_number){
+            _pin_number = pin_number;
+            pinMode(_pin_number, INPUT);
+        }
+
+        int read() {
+            return digitalRead(_pin_number);
+        }
+
+        operator int(){
+            return read();
+        }
+};
+
 class Heartbeat {
   private:
     DigitalOut fault_relay;
     DigitalOut heartbeat_led;
+
+    DigitalIn fault_relay_feedback;
+
     int _counter;
     LMU_States _state;
+    uint8_t _fault_code;
 
   public:
-    Heartbeat(uint32_t fault_relay_pin, uint32_t heartbeat_led_pin) : fault_relay(fault_relay_pin), heartbeat_led(heartbeat_led_pin){
+    Heartbeat(uint32_t fault_relay_pin, uint32_t fault_relay_feedback_pin, uint32_t heartbeat_led_pin) : 
+    fault_relay(fault_relay_pin), fault_relay_feedback(fault_relay_feedback_pin), heartbeat_led(heartbeat_led_pin) {
       _counter = 0;
       _state = FAULT;
     }
 
     // increments counter if healthy. must be associated with a timer of some sort.
-    void tick(uint16_t fault_code){
+    void tick(uint8_t fault_code){
+        _fault_code = fault_code;
       if (fault_code == 0){
         _counter = _counter + 1;
         fault_relay = 1;
@@ -70,12 +107,20 @@ class Heartbeat {
       return _counter;
     }
 
-    int state(){
+    LMU_States state(){
       return _state;
     }
 
     void state(LMU_States new_state){
       _state = new_state;
+    }
+
+    bool relay_fault(){
+        return fault_relay != fault_relay_feedback;
+    }
+
+    uint8_t fault_code(){
+        return _fault_code;
     }
 };
 
@@ -84,6 +129,10 @@ class Stack {
     uint16_t cells[STACK_SIZE];
 
   public:
+    uint16_t cell_voltage(int cell_number){
+        return cells[cell_number];
+    }
+
     bool update_cell(int pos, uint16_t cell_voltage){
       if (pos >= STACK_SIZE || pos < 0) {
         return false;
@@ -95,7 +144,7 @@ class Stack {
 
     uint16_t min(){
       uint16_t lowest_cell = cells[0];
-      for (int i = 0; i <= STACK_SIZE; i++){
+      for (int i = 0; i < STACK_SIZE; i++){
         if (lowest_cell > cells[i]) {
           lowest_cell = cells[i];
         }
@@ -105,7 +154,7 @@ class Stack {
 
     uint16_t max(){
       uint16_t highest_cell = cells[0];
-      for (int i = 0; i <= STACK_SIZE; i++){
+      for (int i = 0; i < STACK_SIZE; i++){
         if (highest_cell < cells[i]) {
           highest_cell = cells[i];
         }
@@ -124,21 +173,26 @@ class Stack {
       }
       return sum;
     }
+
+    bool ov_fault(){
+        return (max() > MAX_VOLTAGE);
+    }
+
+    bool uv_fault(){
+        return (min() < MIN_VOLTAGE);
+    }
 };
 
 class PBalancer {
   private:
     Stack _stack;
-    uint16_t _under_v_cell_limit;
-    uint16_t _over_v_cell_limit;
-    uint16_t _discharge_time_limit;
 
   public:
     PBalancer(){
 
     }
 
-    PBalancer(Stack &stack, uint16_t ov, uint16_t uv, uint16_t dtl){
+    PBalancer(Stack &stack, uint16_t dtl){
 
     }
 
